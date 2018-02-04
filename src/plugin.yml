@@ -1,0 +1,7 @@
+name: crystal
+author: Arouraios, royalmustard
+version: 1.0.0
+description: A cores plugin 
+
+main: Crystal.main
+
