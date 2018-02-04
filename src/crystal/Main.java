@@ -1,4 +1,4 @@
-package Crystal;
+package crystal;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
