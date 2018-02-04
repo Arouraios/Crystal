@@ -1,2 +1,4 @@
 # Crystal
-Core-Plugin for Minecraft
+A Cores-plugin for Minecraft
+
+Simmilar to the Cores-plugin on Gommehd
