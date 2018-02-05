@@ -1,6 +1,7 @@
 name: Crystal
 author: Arouraios, royalmustard
 version: 0.0.1
+load: STARTUP
 
 main: me.Plugins.Crystal.Main
 
@@ -8,7 +9,7 @@ defworld: map
 
 commands:
   ReloadWorld:
-    description: Lädt die Welt neu
+    description: Lädt die Backup-Welt
     usage: /ReloadWorld
     permissions: Main.Reload
 
