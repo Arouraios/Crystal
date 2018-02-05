@@ -3,4 +3,4 @@ author: Arouraios, royalmustard
 version: 1.0.0
 description: A cores plugin for minecraft
 defworld: map
-main: Crystal.main
+main: crystal.Main.java
