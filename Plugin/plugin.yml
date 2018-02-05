@@ -1,7 +1,0 @@
-name: crystal
-author: Arouraios, royalmustard
-version: 1.0.0
-description: A cores plugin for minecraft
-defworld: map
-
-main: crystal.Main
