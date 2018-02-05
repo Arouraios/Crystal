@@ -12,6 +12,10 @@ commands:
     description: Lädt die Backup-Welt
     usage: /ReloadWorld
     permissions: Main.Reload
+  menno:
+    description: ES KLAPPT NICHT
+    usage: /menno
+    permissions: op
 
 permissions:
   Main.Reload:

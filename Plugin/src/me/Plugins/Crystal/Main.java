@@ -39,9 +39,16 @@ public class Main extends JavaPlugin{
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
 	{
+		Player p = (Player) sender;
 		if(cmd.getName().equalsIgnoreCase("reloadworld"))
 		{
 			reload();
+			return true;
+		}
+		if(cmd.getName().equalsIgnoreCase("menno"))
+		{
+			Location loc = new Location(getServer().getWorld("world2"), 1000.5, 70.0, 0.5);
+			p.teleport(loc);
 			return true;
 		}
 		return false;
