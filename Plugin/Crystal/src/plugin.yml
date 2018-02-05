@@ -1,0 +1,7 @@
+name: Crystal
+author: Arouraios, royalmustard
+version: 0.0.1
+
+main: me.Plugins.Crystal.Main
+
+defworld: map
