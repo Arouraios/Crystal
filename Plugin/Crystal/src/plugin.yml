@@ -5,3 +5,13 @@ version: 0.0.1
 main: me.Plugins.Crystal.Main
 
 defworld: map
+
+commands:
+  ReloadWorld:
+    description: Lädt die Welt neu
+    usage: /ReloadWorld
+    permissions: Main.Reload
+
+permissions:
+  Main.Reload:
+    default: op
