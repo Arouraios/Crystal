@@ -8,7 +8,7 @@ defworld: map
 
 commands:
   ReloadWorld:
-    description: LÃ¤dt die Backup-Welt
+    description: Lädt die Backup-Welt
     usage: /ReloadWorld
     permissions: Main.Reload
   tpAllTo:
@@ -16,11 +16,11 @@ commands:
     usage: /tpAllTo <World>
     permissions: op
   deleteWorld:
-    description: LÃ¶scht die angegebene Welt
+    description: Löscht die angegebene Welt
     usage: /deleteWorld <World>
     permissions: op
   loadWorld:
-    description: LÃ¤dt die angegebene Welt
+    description: Lädt die angegebene Welt
     usage: /loadWorld <World>
     permissions: op
   copyBackup:
