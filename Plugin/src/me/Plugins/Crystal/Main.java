@@ -51,15 +51,16 @@ public class Main extends JavaPlugin{
 		World w = p.getWorld();
 		if(cmd.getName().equalsIgnoreCase("reloadworld"))
 		{
-			reload();
+			//reload();
 			return true;
 		}
 		else if(cmd.getName().equalsIgnoreCase("tpallto")) {
-			World wo = getServer().getWorld(args[0]);
+			/*World wo = getServer().getWorld(args[0]);
 			Location loc = new Location(wo, 1000.5, 100, 0.5);
 			for(Player pl : getServer().getOnlinePlayers()) {
 				pl.teleport(loc);
-			}
+			}*/
+			p.teleport(new Location(getServer().getWorld("world2"), 1000.5, 100, 1000.5));
 			return true;
 		}
 		else if(cmd.getName().equalsIgnoreCase("deleteworld")) {
@@ -114,40 +115,5 @@ public class Main extends JavaPlugin{
 		}
 		//getServer().createWorld(new WorldCreator("world"));
 		getServer().createWorld(new WorldCreator("world2"));
-	}
-	
-	public void reload() {
-		log.warning("reload");
-		File srcDir = new File(Bukkit.getWorldContainer().getPath() + "/backup");
-		if (!srcDir.exists()) {
-			Bukkit.getLogger().warning("Backup does not exist!");
-			return;
-		}
-		log.warning("soon deleting");
-		delete();
-		File destDir = new File(Bukkit.getWorldContainer().getPath()+"/world2");
-		log.warning(destDir.getPath());
-		try {
-			log.warning("copy");
-			FileUtils.copyDirectory(srcDir, destDir);
-		} catch (IOException ex) {
-			ex.printStackTrace();
-		}
-		Bukkit.getServer().createWorld(new WorldCreator("world2"));
-	}
-
-	public void delete() {
-		getServer().createWorld(new WorldCreator("world"));
-		Location loc = new Location(getServer().getWorld("world"), 1000.5, 70.0, 0.5);
-		log.warning("delete");
-		for(Player pl : getServer().getOnlinePlayers()) {
-			log.warning(pl.getDisplayName());
-			pl.teleport(loc);
-		}
-		log.warning("unloading");
-		Bukkit.getServer().unloadWorld("world2", false);
-		log.warning("unloaded");
-		File dir = new File(getServer().getWorldContainer().getPath()+"/world2");
-		log.warning(dir.getPath());
 	}
 }
