@@ -12,9 +12,9 @@ commands:
     description: Lädt die Backup-Welt
     usage: /ReloadWorld
     permissions: Main.Reload
-  menno:
-    description: ES KLAPPT NICHT
-    usage: /menno
+  tpallworld2:
+    description: Teleportiert alle Spieler auf welt 2
+    usage: /tpallworld2
     permissions: op
 
 permissions:

@@ -45,10 +45,12 @@ public class Main extends JavaPlugin{
 			reload();
 			return true;
 		}
-		if(cmd.getName().equalsIgnoreCase("menno"))
+		if(cmd.getName().equalsIgnoreCase("tpallworld2"))
 		{
-			Location loc = new Location(getServer().getWorld("world2"), 1000.5, 70.0, 0.5);
-			p.teleport(loc);
+			for(Player q : getServer().getOnlinePlayers()) {
+				Location loc = new Location(getServer().getWorld("world2"), 1000.5, 70.0, 0.5);
+				q.teleport(loc);
+			}
 			return true;
 		}
 		return false;
@@ -60,9 +62,9 @@ public class Main extends JavaPlugin{
 			Bukkit.getLogger().warning("Backup does not exist!");
 			return;
 		}
+		delete();
 		File destDir = new File(Bukkit.getWorldContainer().getPath()+"/world2");
 		try {
-			delete();
 			FileUtils.copyDirectory(srcDir, destDir);
 		} catch (IOException ex) {
 			ex.printStackTrace();
@@ -72,8 +74,10 @@ public class Main extends JavaPlugin{
 
 	public void delete() {
 		for(Player p : getServer().getOnlinePlayers()) {
-			p.kickPlayer("Reloading World");
+			Location loc = new Location(getServer().getWorld("world2"), 1000.5, 70.0, 0.5);
+			p.teleport(loc);
 		}
+		Bukkit.getServer().unloadWorld("world2", true);
 		try {
 			Bukkit.getServer().unloadWorld("world2", true);
 			File dir = new File(getServer().getWorldContainer().getPath()+"/world2");
