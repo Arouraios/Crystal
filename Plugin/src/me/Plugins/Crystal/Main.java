@@ -1,5 +1,5 @@
 package me.Plugins.Crystal;
-//ein Test-Komentar
+
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Logger;
@@ -87,6 +87,4 @@ public class Main extends JavaPlugin{
 			log.warning("world not yet loaded");
 		}
 	}
-
-
 }
