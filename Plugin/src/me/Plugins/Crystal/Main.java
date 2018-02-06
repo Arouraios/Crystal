@@ -40,7 +40,8 @@ public class Main extends JavaPlugin{
 	}
 
 	@EventHandler
-	public void onPlayerJoinEvent(PlayerJoinEvent e) {
+	public void onPlayerJoinEvent(PlayerJoinEvent e) 
+	{
 		Location loc = new Location(getServer().getWorld("world2"), 0.5, 100.5, 0.5);
 		e.getPlayer().teleport(loc);
 	}
@@ -56,12 +57,13 @@ public class Main extends JavaPlugin{
 		}
 		else if(cmd.getName().equalsIgnoreCase("tpallto")) 
 		{
-			/*World wo = getServer().getWorld(args[0]);
+			World wo = getServer().getWorld(args[0]);
 			Location loc = new Location(wo, 1000.5, 100, 0.5);
-			for(Player pl : getServer().getOnlinePlayers()) {
+			for(Player pl : getServer().getOnlinePlayers()) 
+			{
 				pl.teleport(loc);
-			}*/
-			p.teleport(new Location(getServer().getWorld("world2"), 1000.5, 100, 1000.5));
+			}
+			
 			return true;
 		}
 		else if(cmd.getName().equalsIgnoreCase("deleteworld")) 
