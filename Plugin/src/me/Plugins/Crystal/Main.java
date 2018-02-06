@@ -54,7 +54,8 @@ public class Main extends JavaPlugin{
 			//reload();
 			return true;
 		}
-		else if(cmd.getName().equalsIgnoreCase("tpallto")) {
+		else if(cmd.getName().equalsIgnoreCase("tpallto")) 
+		{
 			/*World wo = getServer().getWorld(args[0]);
 			Location loc = new Location(wo, 1000.5, 100, 0.5);
 			for(Player pl : getServer().getOnlinePlayers()) {
@@ -63,32 +64,44 @@ public class Main extends JavaPlugin{
 			p.teleport(new Location(getServer().getWorld("world2"), 1000.5, 100, 1000.5));
 			return true;
 		}
-		else if(cmd.getName().equalsIgnoreCase("deleteworld")) {
+		else if(cmd.getName().equalsIgnoreCase("deleteworld")) 
+		{
 			World wo = getServer().getWorld(args[0]);
-			if(wo.getPlayers().size() == 0) {
+			if(wo.getPlayers().size() == 0) 
+			{
 				getServer().unloadWorld(wo, false);
-				try {
+				try 
+				{
 					FileUtils.deleteDirectory(wo.getWorldFolder());
-				} catch (IOException e) {
+				} 
+				catch (IOException e) 
+				{
 					e.printStackTrace();
 				}
-			}else {
+			}
+			else 
+			{
 				log.warning("still players on world");
 			}
 			return true;
 		}
-		else if(cmd.getName().equalsIgnoreCase("loadworld")) {
+		else if(cmd.getName().equalsIgnoreCase("loadworld")) 
+		{
 			getServer().createWorld(new WorldCreator("./"+args[0]));
 			return true;
 		}
-		else if(cmd.getName().equalsIgnoreCase("copyBackup")) {
+		else if(cmd.getName().equalsIgnoreCase("copyBackup")) 
+		{
 			File src = new File("./backups/" + args[0]);
 			File dir = new File("./" + args[0]);
 			getServer().unloadWorld(args[0], false);
-			try {
+			try 
+			{
 				FileUtils.deleteDirectory(dir);
 				FileUtils.copyDirectory(src, dir);
-			} catch (IOException e) {
+			} 
+			catch (IOException e) 
+			{
 				e.printStackTrace();
 			}
 			return true;
