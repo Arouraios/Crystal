@@ -198,3 +198,5 @@ Caused by: java.lang.NullPointerException
 	at me.Plugins.Crystal.Main.onCommand(Main.java:63) ~[?:?]
 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
 	... 15 more
+[19:42:56] [Server thread/INFO]: _Arouraios_ lost connection: Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+[19:42:56] [Server thread/INFO]: _Arouraios_ left the game
