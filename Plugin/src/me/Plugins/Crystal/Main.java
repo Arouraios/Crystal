@@ -1,5 +1,5 @@
 package me.Plugins.Crystal;
-//ein Test-Komentar für Fabian
+//ein Test-Komentar
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Logger;
