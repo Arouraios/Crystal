@@ -1,7 +1,6 @@
 name: Crystal
 author: Arouraios, royalmustard
 version: 0.0.1
-load: STARTUP
 
 main: me.Plugins.Crystal.Main
 
@@ -12,9 +11,21 @@ commands:
     description: Lädt die Backup-Welt
     usage: /ReloadWorld
     permissions: Main.Reload
-  tpallworld2:
-    description: Teleportiert alle Spieler auf welt 2
-    usage: /tpallworld2
+  tpAllTo:
+    description: Teleportiert alle Spieler auf die angegebene Welt
+    usage: /tpAllTo <World>
+    permissions: op
+  deleteWorld:
+    description: Löscht die angegebene Welt
+    usage: /deleteWorld <World>
+    permissions: op
+  loadWorld:
+    description: Lädt die angegebene Welt
+    usage: /loadWorld <World>
+    permissions: op
+  copyBackup:
+    description: kopiert die angegebene Welt aus dem Backup-Ordner in den Server-Ordner
+    usage: /copyBackup <World>
     permissions: op
 
 permissions:
