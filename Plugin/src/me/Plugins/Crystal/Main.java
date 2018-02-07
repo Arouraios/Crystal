@@ -24,7 +24,6 @@ public class Main extends JavaPlugin{
 	public void onEnable(){
 		log = getLogger();
 		log.info("Crystal enabled!");
-		startup();
 	}
 
 	@Override
@@ -48,8 +47,13 @@ public class Main extends JavaPlugin{
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
 	{
-		Player p = (Player) sender;
-		World w = p.getWorld();
+		try{
+			Player s = (Player) sender;
+			World w = s.getWorld();
+		}
+		catch(ClassCastException e) {
+			log.warning("Sender is Console");
+		}
 		if(cmd.getName().equalsIgnoreCase("reloadworld"))
 		{
 			//reload();
@@ -63,27 +67,32 @@ public class Main extends JavaPlugin{
 			{
 				pl.teleport(loc);
 			}
-			
+
 			return true;
 		}
 		else if(cmd.getName().equalsIgnoreCase("deleteworld")) 
 		{
 			World wo = getServer().getWorld(args[0]);
-			if(wo.getPlayers().size() == 0) 
-			{
-				getServer().unloadWorld(wo, false);
-				try 
+			if(wo != null) {
+				if(wo.getPlayers().size() == 0) 
 				{
-					FileUtils.deleteDirectory(wo.getWorldFolder());
-				} 
-				catch (IOException e) 
+					getServer().unloadWorld(wo, false);
+					try 
+					{
+						FileUtils.deleteDirectory(wo.getWorldFolder());
+					} 
+					catch (IOException e) 
+					{
+						e.printStackTrace();
+					}
+				}
+				else 
 				{
-					e.printStackTrace();
+					log.warning("still players on world");
 				}
 			}
-			else 
-			{
-				log.warning("still players on world");
+			else {
+				log.warning("World " + args[0] + " doesn't exist");
 			}
 			return true;
 		}
@@ -100,17 +109,22 @@ public class Main extends JavaPlugin{
 			try 
 			{
 				FileUtils.deleteDirectory(dir);
-				FileUtils.copyDirectory(src, dir);
 			} 
 			catch (IOException e) 
 			{
+				e.printStackTrace();
+			}
+
+			try {
+				FileUtils.copyDirectory(src, dir);
+			} catch (IOException e) {
 				e.printStackTrace();
 			}
 			return true;
 		}
 		return false;
 	}
-	
+
 	public void startup() {
 		//getServer().unloadWorld("world", false);
 		getServer().unloadWorld("world2", false);
@@ -124,6 +138,7 @@ public class Main extends JavaPlugin{
 		File src = new File("./backups/world2");
 		File dir = new File("./world2");
 		try {
+			FileUtils.deleteDirectory(dir);
 			FileUtils.copyDirectory(src, dir);
 		} catch (IOException e) {
 			e.printStackTrace();
