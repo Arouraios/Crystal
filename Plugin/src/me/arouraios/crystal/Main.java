@@ -1,4 +1,4 @@
-package me.Plugins.Crystal;
+package me.arouraios.crystal;
 
 import java.io.File;
 import java.io.IOException;
@@ -47,13 +47,11 @@ public class Main extends JavaPlugin{
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
 	{
-		
-			Player s = (Player) sender;
-			World w = s.getWorld();
-		
-		
+		Player s = (Player) sender;
+		World w = s.getWorld();
 		if(cmd.getName().equalsIgnoreCase("reloadworld"))
 		{
+			//TODO: summarize all steps
 			//reload();
 			return true;
 		}
@@ -61,17 +59,19 @@ public class Main extends JavaPlugin{
 		{
 			World wo = getServer().getWorld(args[0]);
 			Location loc = new Location(wo, 1000.5, 80, 0.5);
-			for(Player pl : getServer().getOnlinePlayers()) 
-			{
-				s.teleport(loc);
-				//pl.teleport(loc);
-			}
+			s.teleport(loc);
+//			for(Player pl : getServer().getOnlinePlayers()) 
+//			{
+//				pl.teleport(loc);
+//			}
 
 			return true;
 		}
 		else if(cmd.getName().equalsIgnoreCase("deleteworld")) 
 		{
+			log.info(args[0]);
 			World wo = getServer().getWorld(args[0]);
+			log.info(wo.getName());
 			if(wo != null) {
 				if(wo.getPlayers().size() == 0) 
 				{
@@ -95,8 +95,9 @@ public class Main extends JavaPlugin{
 			}
 			return true;
 		}
-		else if(cmd.getName().equalsIgnoreCase("getWorld")) {
-			log.warning(getServer().getWorld(args[0]).getName());
+		else if(cmd.getName().equalsIgnoreCase("getWorlds")) {
+			for(World wo : getServer().getWorlds())
+			log.info(getServer().getWorld(args[0]).getName());
 			return true;
 		}
 		else if(cmd.getName().equalsIgnoreCase("loadworld")) 

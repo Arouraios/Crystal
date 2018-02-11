@@ -2,7 +2,7 @@ name: Crystal
 author: Arouraios, royalmustard
 version: 0.0.1
 
-main: me.Plugins.Crystal.Main
+main: me.arouraios.crystal.Main
 
 defworld: map
 

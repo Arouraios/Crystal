@@ -1,4 +1,4 @@
-package me.Plugins.Crystal.Teams;
+package me.arouraios.teams;
 
 
 import java.util.ArrayList;

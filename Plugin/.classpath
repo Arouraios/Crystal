@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/User/git/crystal/spigot-1.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Koni/git/Crystal/spigot-1.12.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

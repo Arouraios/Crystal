@@ -1,550 +1,138 @@
-[15:41:01] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[15:41:01] [Server thread/INFO]: Loading properties
-[15:41:01] [Server thread/INFO]: Default game type: SURVIVAL
-[15:41:01] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-3d850ec-809c399 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[15:41:01] [Server thread/INFO]: Debug logging is disabled
-[15:41:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:41:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:41:01] [Server thread/INFO]: Generating keypair
-[15:41:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:41:01] [Server thread/INFO]: Using default channel type
-[15:41:02] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[15:41:02] [Server thread/INFO]: [Crystal] Loading Crystal v0.0.1
-[15:41:02] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[15:41:02] [Server thread/INFO]: Preparing level "world"
-[15:41:02] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:41:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:41:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:41:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:41:02] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:41:02] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:41:02] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:41:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:41:02] [Server thread/INFO]: Mob Spawn Range: 4
-[15:41:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:41:02] [Server thread/INFO]: Structure Info Saving: true
-[15:41:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:41:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:41:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:41:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:41:02] [Server thread/INFO]: Random Lighting Updates: false
-[15:41:02] [Server thread/INFO]: Max TNT Explosions: 100
-[15:41:02] [Server thread/INFO]: View Distance: 10
-[15:41:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:41:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:41:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:41:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:41:02] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:41:02] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:41:02] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:41:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:41:02] [Server thread/INFO]: Mob Spawn Range: 4
-[15:41:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:41:02] [Server thread/INFO]: Structure Info Saving: true
-[15:41:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:41:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:41:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:41:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:41:02] [Server thread/INFO]: Random Lighting Updates: false
-[15:41:02] [Server thread/INFO]: Max TNT Explosions: 100
-[15:41:02] [Server thread/INFO]: View Distance: 10
-[15:41:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:41:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:41:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:41:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:41:02] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:41:02] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:41:02] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:41:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:41:02] [Server thread/INFO]: Mob Spawn Range: 4
-[15:41:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:41:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:41:02] [Server thread/INFO]: Structure Info Saving: true
-[15:41:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:41:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:41:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:41:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:41:02] [Server thread/INFO]: Random Lighting Updates: false
-[15:41:02] [Server thread/INFO]: Max TNT Explosions: 100
-[15:41:02] [Server thread/INFO]: View Distance: 10
-[15:41:02] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4050664206165412964)
-[15:41:03] [Server thread/INFO]: Preparing start region for level 1 (Seed: -840972684768443599)
-[15:41:04] [Server thread/INFO]: Preparing start region for level 2 (Seed: -840972684768443599)
-[15:41:04] [Server thread/INFO]: [Crystal] Enabling Crystal v0.0.1
-[15:41:04] [Server thread/INFO]: [Crystal] Crystal enabled!
-[15:41:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:41:04] [Server thread/INFO]: Done (2,276s)! For help, type "help" or "?"
-[15:41:06] [Server thread/INFO]: Plugins (1): [0;32;1mCrystal[m
-[15:41:09] [User Authenticator #1/INFO]: UUID of player Nerdilix is 452ef3f0-1490-4af2-9b57-024fe29d295d
-[15:41:10] [Server thread/INFO]: Nerdilix[/127.0.0.1:58406] logged in with entity id 38 at ([world]-239.5, 63.0, -120.5)
-[15:41:16] [Server thread/INFO]: Nerdilix issued server command: /gamemode 1
-[15:41:16] [Server thread/INFO]: [Nerdilix: Set own game mode to Creative Mode]
-[15:41:28] [Server thread/INFO]: Nerdilix issued server command: /tpallto world2
-[15:41:28] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'tpallto' in plugin Crystal v0.0.1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1397) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1232) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
-	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-Caused by: java.lang.NullPointerException
-	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:528) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:271) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at me.Plugins.Crystal.Main.onCommand(Main.java:68) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	... 15 more
-[15:41:49] [Server thread/INFO]: Nerdilix issued server command: /copybackup
-[15:41:49] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'copybackup' in plugin Crystal v0.0.1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1397) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1232) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
-	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
-	at me.Plugins.Crystal.Main.onCommand(Main.java:110) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	... 15 more
-[15:42:02] [Server thread/INFO]: Nerdilix issued server command: /copybackup world2
-[15:42:18] [Server thread/INFO]: Nerdilix issued server command: /loadworld world2
-[15:42:18] [Server thread/INFO]: -------- World Settings For [./world2] --------
-[15:42:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:42:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:42:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:42:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:42:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:42:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:42:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:42:18] [Server thread/INFO]: Mob Spawn Range: 4
-[15:42:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:42:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:42:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:42:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:42:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:42:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:42:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:42:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:42:18] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:42:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:42:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:42:18] [Server thread/INFO]: Structure Info Saving: true
-[15:42:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:42:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:42:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:42:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:42:18] [Server thread/INFO]: Random Lighting Updates: false
-[15:42:18] [Server thread/INFO]: Max TNT Explosions: 100
-[15:42:18] [Server thread/INFO]: View Distance: 10
-[15:42:18] [Server thread/INFO]: Preparing start region for level 3 (Seed: 4050664206165412964)
-[15:42:26] [Server thread/INFO]: Nerdilix issued server command: /tpallto world2
-[15:42:26] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'tpallto' in plugin Crystal v0.0.1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1397) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1232) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
-	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-Caused by: java.lang.NullPointerException
-	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:528) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:271) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at me.Plugins.Crystal.Main.onCommand(Main.java:68) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	... 15 more
-[15:42:55] [Server thread/INFO]: Nerdilix lost connection: Disconnected
-[15:42:55] [Server thread/INFO]: Nerdilix left the game
-[15:45:42] [Server thread/INFO]: Plugins (1): [0;32;1mCrystal[m
-[15:46:00] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[15:46:00] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[15:46:00] [Server thread/INFO]: Debug logging is disabled
-[15:46:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:46:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:46:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:46:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:46:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:46:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:46:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:46:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:46:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:46:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:46:00] [Server thread/INFO]: Mob Spawn Range: 4
-[15:46:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:46:00] [Server thread/INFO]: Structure Info Saving: true
-[15:46:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:46:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:46:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:46:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:46:00] [Server thread/INFO]: Random Lighting Updates: false
-[15:46:00] [Server thread/INFO]: Max TNT Explosions: 100
-[15:46:00] [Server thread/INFO]: View Distance: 10
-[15:46:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:46:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:46:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:46:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:46:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:46:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:46:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:46:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:46:00] [Server thread/INFO]: Mob Spawn Range: 4
-[15:46:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:46:00] [Server thread/INFO]: Structure Info Saving: true
-[15:46:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:46:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:46:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:46:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:46:00] [Server thread/INFO]: Random Lighting Updates: false
-[15:46:00] [Server thread/INFO]: Max TNT Explosions: 100
-[15:46:00] [Server thread/INFO]: View Distance: 10
-[15:46:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:46:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:46:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:46:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:46:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:46:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:46:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:46:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:46:00] [Server thread/INFO]: Mob Spawn Range: 4
-[15:46:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:46:00] [Server thread/INFO]: Structure Info Saving: true
-[15:46:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:46:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:46:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:46:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:46:00] [Server thread/INFO]: Random Lighting Updates: false
-[15:46:00] [Server thread/INFO]: Max TNT Explosions: 100
-[15:46:00] [Server thread/INFO]: View Distance: 10
-[15:46:00] [Server thread/INFO]: -------- World Settings For [./world2] --------
-[15:46:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:46:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:46:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:46:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:46:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:46:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:46:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:46:00] [Server thread/INFO]: Mob Spawn Range: 4
-[15:46:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:46:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:46:00] [Server thread/INFO]: Structure Info Saving: true
-[15:46:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:46:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:46:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:46:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:46:00] [Server thread/INFO]: Random Lighting Updates: false
-[15:46:00] [Server thread/INFO]: Max TNT Explosions: 100
-[15:46:00] [Server thread/INFO]: View Distance: 10
-[15:46:00] [Server thread/INFO]: [Crystal] Disabling Crystal v0.0.1
-[15:46:00] [Server thread/WARN]: java.io.IOException: Unable to delete file: .\world2\region\r.-1.0.mca
-[15:46:00] [Server thread/WARN]: 	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:2381)
-[15:46:00] [Server thread/WARN]: 	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:1679)
-[15:46:00] [Server thread/WARN]: 	at org.apache.commons.io.FileUtils.deleteDirectory(FileUtils.java:1575)
-[15:46:00] [Server thread/WARN]: 	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:2372)
-[15:46:00] [Server thread/WARN]: 	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:1679)
-[15:46:00] [Server thread/WARN]: 	at org.apache.commons.io.FileUtils.deleteDirectory(FileUtils.java:1575)
-[15:46:00] [Server thread/WARN]: 	at me.Plugins.Crystal.Main.onDisable(Main.java:34)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:422)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:415)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:456)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:720)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:525)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649)
-[15:46:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:635)
-[15:46:00] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:444)
-[15:46:00] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:407)
-[15:46:00] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679)
-[15:46:00] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
-[15:46:00] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[15:46:00] [Server thread/INFO]: [Crystal] Crystal stopped!
-[15:46:00] [Server thread/INFO]: [Crystal] Loading Crystal v0.0.1
-[15:46:00] [Server thread/INFO]: [Crystal] Enabling Crystal v0.0.1
-[15:46:00] [Server thread/INFO]: [Crystal] Crystal enabled!
-[15:46:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:46:00] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
-[15:46:06] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at .\.\world2, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
-[15:46:06] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85)
-[15:46:06] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2814)
-[15:46:06] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1077)
-[15:46:06] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1047)
-[15:46:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
-[15:46:06] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
-[15:46:06] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
-[15:46:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[15:46:23] [User Authenticator #2/INFO]: UUID of player Nerdilix is 452ef3f0-1490-4af2-9b57-024fe29d295d
-[15:46:23] [Server thread/INFO]: Nerdilix[/127.0.0.1:58434] logged in with entity id 295 at ([world]-233.462841357935, 72.88641855036697, -129.2335136007224)
-[15:47:25] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
-net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at .\.\world2, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
-	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2814) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:127) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:294) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:801) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-[15:47:25] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
-net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at .\.\world2, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
-	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2814) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:127) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:294) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:801) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-[15:47:25] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
-net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at .\.\world2, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
-	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2814) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:127) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:294) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:801) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-[15:47:25] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
-net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at .\.\world2, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
-	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2814) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:127) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:294) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:801) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-[15:47:34] [Server thread/INFO]: Nerdilix issued server command: /tpallto world2
-[15:47:34] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'tpallto' in plugin Crystal v0.0.1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1397) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1232) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
-	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-Caused by: java.lang.NullPointerException
-	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:528) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:271) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at me.Plugins.Crystal.Main.onCommand(Main.java:66) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	... 15 more
-[15:48:25] [Server thread/INFO]: Nerdilix issued server command: /loadworld world2
-[15:48:33] [Server thread/INFO]: Nerdilix issued server command: /tpallto world2
-[15:48:33] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'tpallto' in plugin Crystal v0.0.1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1397) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1232) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
-	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-Caused by: java.lang.NullPointerException
-	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:528) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:271) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at me.Plugins.Crystal.Main.onCommand(Main.java:66) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	... 15 more
-[15:49:28] [Server thread/INFO]: Nerdilix lost connection: Disconnected
-[15:49:28] [Server thread/INFO]: Nerdilix left the game
-[15:50:25] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
-net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at .\.\world2, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
-	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2814) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:127) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:294) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:801) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-[15:50:25] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
-net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at .\.\world2, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
-	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2814) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:127) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:294) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:801) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-[15:50:25] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
-net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at .\.\world2, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
-	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2814) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:127) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:294) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:801) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-[15:50:25] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
-net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at .\.\world2, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
-	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2814) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:127) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:294) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:801) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-[15:51:07] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at .\.\world2, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
-[15:51:07] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85)
-[15:51:07] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2814)
-[15:51:07] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1077)
-[15:51:07] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1047)
-[15:51:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
-[15:51:07] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
-[15:51:07] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
-[15:51:07] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[16:01:42] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:01:42] [Server thread/INFO]: Loading properties
+[16:01:42] [Server thread/INFO]: Default game type: SURVIVAL
+[16:01:42] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-3d850ec-809c399 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[16:01:42] [Server thread/INFO]: Debug logging is disabled
+[16:01:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:01:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:01:42] [Server thread/INFO]: Generating keypair
+[16:01:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:01:42] [Server thread/INFO]: Using default channel type
+[16:01:42] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:01:42] [Server thread/ERROR]: Could not load 'plugins\Crystal.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: me/Plugins/Crystal/Main has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:306) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_162]
+Caused by: java.lang.UnsupportedClassVersionError: me/Plugins/Crystal/Main has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.access$100(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_162]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_162]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[spigot-1.12.2.jar:git-Spigot-3d850ec-809c399]
+	... 6 more
+[16:01:42] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:01:42] [Server thread/INFO]: Preparing level "world"
+[16:01:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:01:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:01:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:01:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:01:42] [Server thread/INFO]: View Distance: 10
+[16:01:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:01:42] [Server thread/INFO]: Mob Spawn Range: 4
+[16:01:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:01:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:01:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:01:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:01:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:01:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:01:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:01:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:01:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:01:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:01:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:01:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:01:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:01:42] [Server thread/INFO]: Structure Info Saving: true
+[16:01:42] [Server thread/INFO]: Max TNT Explosions: 100
+[16:01:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:01:42] [Server thread/INFO]: Random Lighting Updates: false
+[16:01:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:01:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:01:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:01:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:01:43] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:01:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:01:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:01:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:01:43] [Server thread/INFO]: View Distance: 10
+[16:01:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:01:43] [Server thread/INFO]: Mob Spawn Range: 4
+[16:01:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:01:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:01:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:01:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Structure Info Saving: true
+[16:01:43] [Server thread/INFO]: Max TNT Explosions: 100
+[16:01:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:01:43] [Server thread/INFO]: Random Lighting Updates: false
+[16:01:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:01:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:01:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:01:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:01:43] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:01:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:01:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:01:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:01:43] [Server thread/INFO]: View Distance: 10
+[16:01:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:01:43] [Server thread/INFO]: Mob Spawn Range: 4
+[16:01:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:01:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:01:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:01:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:01:43] [Server thread/INFO]: Structure Info Saving: true
+[16:01:43] [Server thread/INFO]: Max TNT Explosions: 100
+[16:01:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:01:43] [Server thread/INFO]: Random Lighting Updates: false
+[16:01:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:01:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:01:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:01:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:01:43] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4050664206165412964)
+[16:01:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: -840972684768443599)
+[16:01:44] [Server thread/INFO]: Preparing start region for level 2 (Seed: -840972684768443599)
+[16:01:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:01:44] [Server thread/INFO]: Done (1,762s)! For help, type "help" or "?"
+[16:05:10] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[16:08:18] [Server thread/INFO]: Stopping the server
+[16:08:18] [Server thread/INFO]: Stopping server
+[16:08:18] [Server thread/INFO]: Saving players
+[16:08:18] [Server thread/INFO]: Saving worlds
+[16:08:18] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[16:08:18] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[16:08:18] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
