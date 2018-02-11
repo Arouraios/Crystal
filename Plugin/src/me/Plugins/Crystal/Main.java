@@ -47,13 +47,11 @@ public class Main extends JavaPlugin{
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
 	{
-		try{
+		
 			Player s = (Player) sender;
 			World w = s.getWorld();
-		}
-		catch(ClassCastException e) {
-			log.warning("Sender is Console");
-		}
+		
+		
 		if(cmd.getName().equalsIgnoreCase("reloadworld"))
 		{
 			//reload();
@@ -65,7 +63,8 @@ public class Main extends JavaPlugin{
 			Location loc = new Location(wo, 1000.5, 80, 0.5);
 			for(Player pl : getServer().getOnlinePlayers()) 
 			{
-				pl.teleport(loc);
+				s.teleport(loc);
+				//pl.teleport(loc);
 			}
 
 			return true;
