@@ -27,9 +27,9 @@ commands:
     description: kopiert die angegebene Welt aus dem Backup-Ordner in den Server-Ordner
     usage: /copyBackup <World>
     permissions: op
-  getWorld:
+  getWorlds:
     description: getWorld
-    usage: /getWorld <World>
+    usage: /getWorld
     permissions: op
 
 permissions:

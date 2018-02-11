@@ -47,8 +47,8 @@ public class Main extends JavaPlugin{
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
 	{
-		Player s = (Player) sender;
-		World w = s.getWorld();
+		//Player s = (Player) sender;
+		//World w = s.getWorld();
 		if(cmd.getName().equalsIgnoreCase("reloadworld"))
 		{
 			//TODO: summarize all steps
@@ -59,7 +59,7 @@ public class Main extends JavaPlugin{
 		{
 			World wo = getServer().getWorld(args[0]);
 			Location loc = new Location(wo, 1000.5, 80, 0.5);
-			s.teleport(loc);
+			((Player)sender).teleport(loc);
 //			for(Player pl : getServer().getOnlinePlayers()) 
 //			{
 //				pl.teleport(loc);
@@ -96,8 +96,9 @@ public class Main extends JavaPlugin{
 			return true;
 		}
 		else if(cmd.getName().equalsIgnoreCase("getWorlds")) {
-			for(World wo : getServer().getWorlds())
-			log.info(getServer().getWorld(args[0]).getName());
+			for(World wo : getServer().getWorlds()) {
+				wo.getName();
+			}
 			return true;
 		}
 		else if(cmd.getName().equalsIgnoreCase("loadworld")) 
