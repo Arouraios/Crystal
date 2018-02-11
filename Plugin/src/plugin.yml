@@ -27,6 +27,10 @@ commands:
     description: kopiert die angegebene Welt aus dem Backup-Ordner in den Server-Ordner
     usage: /copyBackup <World>
     permissions: op
+  getWorld:
+    description: getWorld
+    usage: /getWorld <World>
+    permissions: op
 
 permissions:
   Main.Reload:

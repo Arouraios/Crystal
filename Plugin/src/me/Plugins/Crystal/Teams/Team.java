@@ -38,6 +38,7 @@ public class Team
 		return playerTeams.containsKey(p.getName());
 	}
 	
+	@SuppressWarnings("unlikely-arg-type")
 	public Team getTeam(Player p)
 	{
 		 return playerTeams.get(p);

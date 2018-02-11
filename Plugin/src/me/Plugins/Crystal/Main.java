@@ -28,7 +28,7 @@ public class Main extends JavaPlugin{
 
 	@Override
 	public void onDisable(){
-		getServer().unloadWorld("world2", false);
+		getServer().unloadWorld("world2", true);
 		File world2 = new File("./world2");
 		try {
 			FileUtils.deleteDirectory(world2);
@@ -62,7 +62,7 @@ public class Main extends JavaPlugin{
 		else if(cmd.getName().equalsIgnoreCase("tpallto")) 
 		{
 			World wo = getServer().getWorld(args[0]);
-			Location loc = new Location(wo, 1000.5, 100, 0.5);
+			Location loc = new Location(wo, 1000.5, 80, 0.5);
 			for(Player pl : getServer().getOnlinePlayers()) 
 			{
 				pl.teleport(loc);
@@ -94,6 +94,10 @@ public class Main extends JavaPlugin{
 			else {
 				log.warning("World " + args[0] + " doesn't exist");
 			}
+			return true;
+		}
+		else if(cmd.getName().equalsIgnoreCase("getWorld")) {
+			log.warning(getServer().getWorld(args[0]).getName());
 			return true;
 		}
 		else if(cmd.getName().equalsIgnoreCase("loadworld")) 
