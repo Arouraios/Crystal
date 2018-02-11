@@ -38,6 +38,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "plains": "2018-02-05 16:48:37 +0100",
+      "savanna": "2018-02-11 16:21:34 +0100",
       "ocean": "2018-02-05 20:07:01 +0100",
       "river": "2018-02-05 19:51:14 +0100"
     },
