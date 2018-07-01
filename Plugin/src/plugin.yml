@@ -32,8 +32,8 @@ commands:
     usage: /copyBackup <World>
     permissions: op
   getWorlds:
-    description: getWorld
-    usage: /getWorld
+    description: Gibt alle Welten aus
+    usage: /getWorlds
     permissions: op
 
 permissions:
