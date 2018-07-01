@@ -11,9 +11,9 @@ commands:
     description: Laedt die Backup-Welt
     usage: /ReloadWorld
     permissions: Main.Reload
-  tpAllTo:
-    description: Teleportiert alle Spieler auf die angegebene Welt
-    usage: /tpAllTo <World>
+  tpAllToPlayer:
+    description: Teleportiert alle Spieler zum Sender
+    usage: /tpAllTo
     permissions: op
   deleteWorld:
     description: Loescht die angegebene Welt

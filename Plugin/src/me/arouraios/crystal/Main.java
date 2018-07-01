@@ -1,5 +1,6 @@
 package me.arouraios.crystal;
 
+import java.io.Console;
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Logger;
@@ -10,6 +11,7 @@ import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.WorldCreator;
 import org.bukkit.command.Command;
+import org.bukkit.command.CommandException;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -24,17 +26,12 @@ public class Main extends JavaPlugin{
 	public void onEnable(){
 		log = getLogger();
 		log.info("Crystal enabled!");
+		resetCustomWorlds();
 	}
 
 	@Override
 	public void onDisable(){
-		getServer().unloadWorld("world2", true);
-		File world2 = new File("./world2");
-		try {
-			FileUtils.deleteDirectory(world2);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		resetCustomWorlds();
 		log.info("Crystal stopped!");
 	}
 
@@ -47,26 +44,33 @@ public class Main extends JavaPlugin{
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
 	{
-		//Player s = (Player) sender;
-		//World w = s.getWorld();
+		Player s;
+		World w;
+		
+		if(sender instanceof Player) {
+			s = ((Player) sender);
+			w = s.getWorld();
+		}
+		
 		if(cmd.getName().equalsIgnoreCase("reloadworld"))
 		{
 			//TODO: summarize all steps
 			//reload();
 			return true;
 		}
-		else if(cmd.getName().equalsIgnoreCase("tpallto")) 
-		{
-			World wo = getServer().getWorld(args[0]);
-			Location loc = new Location(wo, 1000.5, 80, 0.5);
-			((Player)sender).teleport(loc);
-//			for(Player pl : getServer().getOnlinePlayers()) 
-//			{
-//				pl.teleport(loc);
+		
+//		else if(cmd.getName().equalsIgnoreCase("tpalltoplayer")) 
+//		{
+//			if(isPlayer) {
+//				Location loc = s.getLocation();
+//				for(Player pl : getServer().getOnlinePlayers()) 
+//				{
+//					pl.teleport(loc);
+//				}
 //			}
-
-			return true;
-		}
+//			return true;
+//		}
+		
 		else if(cmd.getName().equalsIgnoreCase("deleteworld")) 
 		{
 			log.info(args[0]);
@@ -75,14 +79,18 @@ public class Main extends JavaPlugin{
 			if(wo != null) {
 				if(wo.getPlayers().size() == 0) 
 				{
-					getServer().unloadWorld(wo, false);
-					try 
-					{
-						FileUtils.deleteDirectory(wo.getWorldFolder());
-					} 
-					catch (IOException e) 
-					{
-						e.printStackTrace();
+					if(Bukkit.unloadWorld(wo.getName(), false)) {
+						try 
+						{
+							FileUtils.deleteDirectory(wo.getWorldFolder());
+						} 
+						catch (IOException e) 
+						{
+							e.printStackTrace();
+						}
+					}
+					else {
+						log.info("Bukkit.unload was false");
 					}
 				}
 				else 
@@ -95,22 +103,25 @@ public class Main extends JavaPlugin{
 			}
 			return true;
 		}
+		
 		else if(cmd.getName().equalsIgnoreCase("getWorlds")) {
 			for(World wo : getServer().getWorlds()) {
-				wo.getName();
+				log.info(wo.getName());
 			}
 			return true;
 		}
+		
 		else if(cmd.getName().equalsIgnoreCase("loadworld")) 
 		{
-			getServer().createWorld(new WorldCreator("./"+args[0]));
+			getServer().createWorld(new WorldCreator(args[0]));
 			return true;
 		}
+		
 		else if(cmd.getName().equalsIgnoreCase("copyBackup")) 
 		{
 			File src = new File("./backups/" + args[0]);
 			File dir = new File("./" + args[0]);
-			getServer().unloadWorld(args[0], false);
+			Bukkit.unloadWorld(args[0], false);
 			try 
 			{
 				FileUtils.deleteDirectory(dir);
@@ -129,26 +140,34 @@ public class Main extends JavaPlugin{
 		}
 		return false;
 	}
-
-	public void startup() {
-		//getServer().unloadWorld("world", false);
-		getServer().unloadWorld("world2", false);
-		/*File src = new File("./backups/world");
-		File dir = new File("./world");
-		try {
-			FileUtils.copyDirectory(src, dir);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}*/
-		File src = new File("./backups/world2");
-		File dir = new File("./world2");
+	
+	public void resetCustomWorlds() {
+		if(getServer().getWorld("world2") != null){
+			log.info("world2: " + Boolean.toString(Bukkit.unloadWorld(getServer().getWorld("world2").getName(), false)));
+			log.info("world3: " + Boolean.toString(Bukkit.unloadWorld(getServer().getWorld("world3").getName(), false)));
+			log.info("world2 war nicht null, Welten wurden entladen");
+		}
+		else {
+			log.warning("world2 was null");
+		}
+		loadBackup("world2");
+		loadBackup("world3");
+		log.info("world2: " + getServer().createWorld(new WorldCreator("world2")));
+		log.info("world2: " + getServer().createWorld(new WorldCreator("world3")));
+		log.info("worlds created");
+	}
+	
+	
+	public void loadBackup(String world) {
+		File src = new File("./" + world);
+		File dir = new File("./backups/" + world);
 		try {
 			FileUtils.deleteDirectory(dir);
 			FileUtils.copyDirectory(src, dir);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		//getServer().createWorld(new WorldCreator("world"));
-		getServer().createWorld(new WorldCreator("world2"));
+		
+		log.info("loadBackup: word " + world + " replaced by backup");
 	}
 }
