@@ -7,14 +7,18 @@ main: me.arouraios.crystal.Main
 defworld: map
 
 commands:
+  tpAllToPlayer:
+    description: Teleportiert alle Spieler zum Sender
+    usage: /tpAllToPlayer
+    permissions: op
+  tpAllToLoc:
+    description: Teleportiert alle Spieler zum angegebenen Ort
+    usage: /tpAllToLoc [Welt] [X] [Y] [Z]
+    permissions: op
   ReloadWorld:
     description: Laedt die Backup-Welt
     usage: /ReloadWorld
     permissions: Main.Reload
-  tpAllToPlayer:
-    description: Teleportiert alle Spieler zum Sender
-    usage: /tpAllTo
-    permissions: op
   deleteWorld:
     description: Loescht die angegebene Welt
     usage: /deleteWorld <World>
