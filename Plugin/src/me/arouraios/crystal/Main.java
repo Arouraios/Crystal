@@ -38,7 +38,7 @@ public class Main extends JavaPlugin{
 
 	@Override
 	public void onDisable(){
-		resetCustomWorlds();
+		WM.resetCustomWorlds();
 		log.info("Crystal stopped!");
 	}
 
