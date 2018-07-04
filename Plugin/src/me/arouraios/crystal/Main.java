@@ -8,11 +8,13 @@ import java.util.logging.Logger;
 import org.apache.commons.io.FileUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
+import org.bukkit.Server;
 import org.bukkit.World;
 import org.bukkit.WorldCreator;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandException;
 import org.bukkit.command.CommandSender;
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerJoinEvent;
@@ -20,24 +22,36 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 @SuppressWarnings("unused")
 public class Main extends JavaPlugin{
-	private Logger log;
+	Logger log;
 	WorldManager WM;
+	File forLaterUse;
+	FileConfiguration conf;
+	Server s;
 	
 	@Override
 	public void onEnable(){
+		conf = getConfig();
 		log = getLogger();
-		WM = new WorldManager();
+		s = getServer();
 		
-		WM.resetCustomWorlds();
-		log.info("world2: " + getServer().createWorld(new WorldCreator("world2")));
-		log.info("world2: " + getServer().createWorld(new WorldCreator("world3")));
+		WM = new WorldManager(log, s);
+		loadforLaterUse();
+		
+		reloadConfig();
+		conf.options().copyDefaults(true);
+		saveConfig();
+
+		for(World wo : getServer().getWorlds()) {
+			log.info(wo.getName());
+		}
+		
 		log.info("worlds created");
-		WM.setWorlds();
 		log.info("Crystal enabled!");
 	}
 
 	@Override
 	public void onDisable(){
+		saveConfig();
 		WM.resetCustomWorlds();
 		log.info("Crystal stopped!");
 	}
@@ -46,10 +60,23 @@ public class Main extends JavaPlugin{
 	public void onPlayerJoinEvent(PlayerJoinEvent e) 
 	{
 		Location loc = new Location(getServer().getWorld("world"), 0.5, 100.5, 0.5);
-		e.getPlayer().teleport(loc);
+//		e.getPlayer().teleport(loc);
 		log.info("Player joined. Was teleported to default location");
 	}
 
+	public void loadforLaterUse() {
+		forLaterUse = FileUtils.getFile("./forLaterUse.yml");
+		if(!forLaterUse.exists()) { 
+		    try {
+		    	log.info("trying to create new forLaterUse.yml");
+				forLaterUse.createNewFile();
+			} catch (IOException e) {
+				log.warning("couldn't create new forLaterUse.yml");
+				e.printStackTrace();
+			}
+		}else {log.info("forLaterUse loaded");}
+	}
+	
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
 	{
 		Player s;

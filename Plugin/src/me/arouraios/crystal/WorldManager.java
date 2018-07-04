@@ -22,10 +22,15 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 
 @SuppressWarnings("unused")
-public class WorldManager extends JavaPlugin{
+public class WorldManager{
 	World[] worlds = new World[3];
-	Logger log = getLogger();
-	Server s = getServer();
+	Logger log;
+	Server s;
+	
+	public WorldManager(Logger pLog, Server pS) {
+		log = pLog;
+		s = pS;
+	}
 	
 	public void setWorlds() {
 		int i = 0;
@@ -37,12 +42,14 @@ public class WorldManager extends JavaPlugin{
 	}
 	
 	public void reloadWorld(String world) {
-		 deleteWorld(world);
-		 log.info(world + " deleted");
-		 copyBackup(world);
-		 log.info(world + " copied");
-		 loadWorld(world);
-		 log.info(world + " loaded");
+		unloadWorld(world);
+		log.info(world + " unloaded"); 
+		deleteWorld(world);
+		log.info(world + " deleted");
+		copyBackup(world);
+		log.info(world + " copied");
+		loadWorld(world);
+		log.info(world + " loaded");
 	}
 	
 	public void copyBackup(String world) {
@@ -68,7 +75,7 @@ public class WorldManager extends JavaPlugin{
 			if(wo.getPlayers().size() == 0) 
 			{
 				log.info("No players online. Procceding to unload");
-				log.info(wo.getName() + "unloaded: " + Boolean.toString(Bukkit.unloadWorld(getServer().getWorld("world2").getName(), false)));
+				log.info(wo.getName() + "unloaded: " + Boolean.toString(Bukkit.unloadWorld(s.getWorld(world).getName(), false)));
 			}
 			else 
 			{
@@ -97,48 +104,23 @@ public class WorldManager extends JavaPlugin{
 		else {
 			log.warning("World " + world + " is still loaded!");
 		}
-//		}
-//				else {
-//					log.warning("Bukkit.unload was false");
-//				}
-//			}
-//			else 
-//			{
-//				log.warning("still players on world");
-//			}
-//		}
-//		else {
-//			log.warning("World " + world + " isn't loaded");
-//			log.info("trying to delete files anyway...");
-//			File unloadedWorld = new File("./" + world);
-//			if(unloadedWorld != null) {
-//				try {
-//					FileUtils.deleteDirectory(unloadedWorld);
-//					log.info("It worked! The directory of the unloaded world has been removed");
-//				} catch (IOException e) {
-//					log.warning("Couldn't delete directory of unloaded world with the name " + world);
-//					e.printStackTrace();
-//				}
-//			}
-//			else {
-//				log.warning("nope, no directory of that name found");
-//			}
-//		}
 	}
 	
 	public void resetCustomWorlds() {
-		for(World wo: worlds) {
+		for(World wo: s.getWorlds()) {
 			if(wo.getName()!= "world" && wo.getName() != "world_the_end" && wo.getName() != "world_nether") {
-				log.info(wo.getName() + "entladen: " + Boolean.toString(Bukkit.unloadWorld(getServer().getWorld("world2").getName(), false)));
+				String name = wo.getName();
+				unloadWorld(name);
+				deleteWorld(name);
+				loadBackup(name);
 			}
 		}
 	}
 	
 	public void loadBackup(String world) {
-		File src = new File("./" + world);
-		File dir = new File("./backups/" + world);
+		File dir = new File("./" + world);
+		File src = new File("./backups/" + world);
 		try {
-			FileUtils.deleteDirectory(dir);
 			FileUtils.copyDirectory(src, dir);
 		} catch (IOException e) {
 			e.printStackTrace();
