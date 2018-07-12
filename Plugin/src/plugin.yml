@@ -7,6 +7,10 @@ main: me.arouraios.crystal.Main
 defworld: map
 
 commands:
+  unloadWorld:
+    description: Entlaedt die angegebene Welt
+    usage: /unloadWorld [world]
+    permissions: op
   tpAllToPlayer:
     description: Teleportiert alle Spieler zum Sender
     usage: /tpAllToPlayer

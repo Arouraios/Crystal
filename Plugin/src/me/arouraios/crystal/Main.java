@@ -41,9 +41,7 @@ public class Main extends JavaPlugin{
 		conf.options().copyDefaults(true);
 		saveConfig();
 
-		for(World wo : getServer().getWorlds()) {
-			log.info(wo.getName());
-		}
+		WM.resetCustomWorlds();
 		
 		log.info("worlds created");
 		log.info("Crystal enabled!");
@@ -52,7 +50,7 @@ public class Main extends JavaPlugin{
 	@Override
 	public void onDisable(){
 		saveConfig();
-		WM.resetCustomWorlds();
+//		WM.resetCustomWorlds();
 		log.info("Crystal stopped!");
 	}
 
@@ -119,6 +117,12 @@ public class Main extends JavaPlugin{
 		else if(cmd.getName().equalsIgnoreCase("deleteworld")) 
 		{
 			WM.deleteWorld(args[0]);
+			return true;
+		}
+		
+		else if(cmd.getName().equalsIgnoreCase("unloadworld")) 
+		{
+			WM.unloadWorld(args[0]);
 			return true;
 		}
 		

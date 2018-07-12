@@ -75,7 +75,7 @@ public class WorldManager{
 			if(wo.getPlayers().size() == 0) 
 			{
 				log.info("No players online. Procceding to unload");
-				log.info(wo.getName() + "unloaded: " + Boolean.toString(Bukkit.unloadWorld(s.getWorld(world).getName(), false)));
+				log.info(wo.getName() + " unloaded: " + Boolean.toString(Bukkit.unloadWorld(s.getWorld(world).getName(), false)));
 			}
 			else 
 			{
@@ -108,7 +108,7 @@ public class WorldManager{
 	
 	public void resetCustomWorlds() {
 		for(World wo: s.getWorlds()) {
-			if(wo.getName()!= "world" && wo.getName() != "world_the_end" && wo.getName() != "world_nether") {
+			if(wo.getName() != "world" && wo.getName() != "world_the_end" && wo.getName() != "world_nether") {
 				String name = wo.getName();
 				unloadWorld(name);
 				deleteWorld(name);
