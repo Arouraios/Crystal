@@ -1,6 +1,5 @@
 package me.arouraios.teams;
 
-
 import java.util.ArrayList;
 import java.util.HashMap;
  

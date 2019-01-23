@@ -1,154 +1,81 @@
 package me.arouraios.crystal;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.logging.Logger;
-
-import org.apache.commons.io.FileUtils;
-import org.bukkit.Bukkit;
 import org.bukkit.Location;
+import org.bukkit.Server;
 import org.bukkit.World;
-import org.bukkit.WorldCreator;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
+import me.arouraios.worlds.WorldManager;
 
-@SuppressWarnings("unused")
 public class Main extends JavaPlugin{
 	private Logger log;
+	private FileConfiguration conf;
+	private WorldManager WM;
+	private Server serv;
 
 	@Override
 	public void onEnable(){
+		serv = getServer();
+		conf = getConfig();
 		log = getLogger();
 		log.info("Crystal enabled!");
+		WM = new WorldManager(log, conf, serv);
 	}
 
 	@Override
 	public void onDisable(){
-		getServer().unloadWorld("world2", true);
-		File world2 = new File("./world2");
-		try {
-			FileUtils.deleteDirectory(world2);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 		log.info("Crystal stopped!");
 	}
 
 	@EventHandler
 	public void onPlayerJoinEvent(PlayerJoinEvent e) 
 	{
-		Location loc = new Location(getServer().getWorld("world2"), 0.5, 100.5, 0.5);
+		Location loc = new Location(getServer().getWorld("world"), 0.5, 100.5, 0.5);
 		e.getPlayer().teleport(loc);
 	}
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
 	{
-		//Player s = (Player) sender;
-		//World w = s.getWorld();
-		if(cmd.getName().equalsIgnoreCase("reloadworld"))
-		{
-			//TODO: summarize all steps
-			//reload();
-			return true;
+		Player s = (Player) sender;
+		
+		if(cmd.getName().equalsIgnoreCase("reloadworld")){
+			return WM.reloadWorld(args);
 		}
-		else if(cmd.getName().equalsIgnoreCase("tpallto")) 
-		{
-			World wo = getServer().getWorld(args[0]);
-			Location loc = new Location(wo, 1000.5, 80, 0.5);
-			((Player)sender).teleport(loc);
-//			for(Player pl : getServer().getOnlinePlayers()) 
-//			{
-//				pl.teleport(loc);
-//			}
-
-			return true;
+		
+		else if(cmd.getName().equalsIgnoreCase("deleteworld")) {
+			return WM.unloadWorld(args);
 		}
-		else if(cmd.getName().equalsIgnoreCase("deleteworld")) 
-		{
-			log.info(args[0]);
+		
+		else if(cmd.getName().equalsIgnoreCase("loadworld")) {
+			return WM.loadWorld(args);
+		}
+		
+		else if(cmd.getName().equalsIgnoreCase("copyBackup")) {
+			return WM.copyBackup(args);
+		}
+		
+		else if(cmd.getName().equalsIgnoreCase("tpallto")) {
 			World wo = getServer().getWorld(args[0]);
-			log.info(wo.getName());
-			if(wo != null) {
-				if(wo.getPlayers().size() == 0) 
-				{
-					getServer().unloadWorld(wo, false);
-					try 
-					{
-						FileUtils.deleteDirectory(wo.getWorldFolder());
-					} 
-					catch (IOException e) 
-					{
-						e.printStackTrace();
-					}
-				}
-				else 
-				{
-					log.warning("still players on world");
-				}
-			}
-			else {
-				log.warning("World " + args[0] + " doesn't exist");
+			Location loc = new Location(wo, Integer.parseInt(args[1]), Integer.parseInt(args[2]), Integer.parseInt(args[3]));
+			for(Player pl : wo.getPlayers()) {
+				pl.teleport(loc);
 			}
 			return true;
 		}
+		
 		else if(cmd.getName().equalsIgnoreCase("getWorlds")) {
 			for(World wo : getServer().getWorlds()) {
-				wo.getName();
+				s.sendRawMessage(wo.getName());
 			}
 			return true;
 		}
-		else if(cmd.getName().equalsIgnoreCase("loadworld")) 
-		{
-			getServer().createWorld(new WorldCreator("./"+args[0]));
-			return true;
-		}
-		else if(cmd.getName().equalsIgnoreCase("copyBackup")) 
-		{
-			File src = new File("./backups/" + args[0]);
-			File dir = new File("./" + args[0]);
-			getServer().unloadWorld(args[0], false);
-			try 
-			{
-				FileUtils.deleteDirectory(dir);
-			} 
-			catch (IOException e) 
-			{
-				e.printStackTrace();
-			}
-
-			try {
-				FileUtils.copyDirectory(src, dir);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-			return true;
-		}
+		
 		return false;
-	}
-
-	public void startup() {
-		//getServer().unloadWorld("world", false);
-		getServer().unloadWorld("world2", false);
-		/*File src = new File("./backups/world");
-		File dir = new File("./world");
-		try {
-			FileUtils.copyDirectory(src, dir);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}*/
-		File src = new File("./backups/world2");
-		File dir = new File("./world2");
-		try {
-			FileUtils.deleteDirectory(dir);
-			FileUtils.copyDirectory(src, dir);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		//getServer().createWorld(new WorldCreator("world"));
-		getServer().createWorld(new WorldCreator("world2"));
 	}
 }
