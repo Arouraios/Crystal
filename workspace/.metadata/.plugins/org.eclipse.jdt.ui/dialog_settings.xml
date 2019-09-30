@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\Koni\Desktop\Crystal"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\Koni\git\Crystal\Testserver"/>
 	<item key="org.eclipse.jdt.ui.last.external.project" value="D:\Crystal\crystal"/>
 	<item key="UserLibraryLoadSaveDialog.size" value="640,680"/>
 	<section name="RefactoringWizard.preview">
@@ -73,6 +73,7 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="D:\Koni\git\Crystal\Testserver\plugins\Crystal.jar"/>
 			<item value="D:\Koni\Desktop\Crystal\plugins\Crystal.jar"/>
 			<item value="C:\Users\konni\Desktop\Crystal\plugins\Crystal.jar"/>
 			<item value="C:\Users\konni\Desktop\Crystal.jar"/>

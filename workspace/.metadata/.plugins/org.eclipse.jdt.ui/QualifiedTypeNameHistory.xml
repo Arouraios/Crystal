@@ -15,4 +15,6 @@
     <fullyQualifiedTypeName name="org.bukkit.command.CommandSender"/>
     <fullyQualifiedTypeName name="org.bukkit.command.Command"/>
     <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
+    <fullyQualifiedTypeName name="me.Arouraios.Crystal.Main"/>
 </qualifiedTypeNameHistroy>
