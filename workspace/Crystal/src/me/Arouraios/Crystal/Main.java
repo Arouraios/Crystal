@@ -18,6 +18,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -26,7 +27,7 @@ import me.Arouraios.Crystal.utils.Commander;
 import me.Arouraios.Crystal.worlds.WorldManager;
 
 @SuppressWarnings("unused")
-public class Main extends JavaPlugin {
+public class Main extends JavaPlugin implements Listener {
 	private Logger log;
 	private FileConfiguration conf;
 	private WorldManager WM;
@@ -40,10 +41,10 @@ public class Main extends JavaPlugin {
 		serv = getServer();
 		conf = getConfig();
 		log = getLogger();
-		C = new Commander(serv, log);
+		C = new Commander(serv, log, this);
 		runningGames = new ArrayList<Game>();
 
-		WM = new WorldManager(log, conf, serv);
+		WM = new WorldManager(log, conf, serv, this);
 //		loadforLaterUse();
 
 		reloadConfig();
@@ -51,7 +52,7 @@ public class Main extends JavaPlugin {
 		saveConfig();
 		log.info("worlds created");
 		log.info("Crystal enabled!");
-		WM = new WorldManager(log, conf, serv);
+		WM = new WorldManager(log, conf, serv, this);
 	}
 
 	@Override
@@ -92,61 +93,72 @@ public class Main extends JavaPlugin {
 			s = null;
 			w = null;
 		}
-		if (cmd.getName().equalsIgnoreCase("reloadworld")) {
-			return WM.reloadWorld(args[0]);
-		} else if (cmd.getName().equalsIgnoreCase("deleteworld")) {
-			return WM.deleteWorld(args[0]);
-		} else if (cmd.getName().equalsIgnoreCase("newgame")) {
-			Game g = new Game(args[0], log, conf, WM, serv, C);
-			log.info("game " + args[0] + " successfully created");
-			runningGames.add(g);
-		} else if (cmd.getName().equalsIgnoreCase("loadworld")) {
-			return WM.loadWorld(args[0]);
-		} else if (cmd.getName().equalsIgnoreCase("copyBackup")) {
-			return WM.copyBackup(args[0]);
-		} else if (cmd.getName().equalsIgnoreCase("tpallto")) {
-			switch (args.length) {
-			case 0:
-				if (s != null)
-					return C.tpallto(s);
-				else {
-					log.warning("Not enough arguments");
-					return false;
-				}
-			case 3:
-				try {
+		try {
+			if (cmd.getName().equalsIgnoreCase("reloadworld")) {
+				return WM.reloadWorld(args[0]);
+			} else if (cmd.getName().equalsIgnoreCase("deleteworld")) {
+				return WM.deleteWorld(args[0]);
+			} else if (cmd.getName().equalsIgnoreCase("newgame")) {
+				Game g = new Game(args[0], log, conf, WM, serv, C, this);
+				log.info("game " + args[0] + " successfully created");
+				runningGames.add(g);
+			} else if (cmd.getName().equalsIgnoreCase("loadworld")) {
+				return WM.loadWorld(args[0]);
+			} else if (cmd.getName().equalsIgnoreCase("unloadworld")) {
+				return WM.unloadWorld(args[0]);
+			} else if (cmd.getName().equalsIgnoreCase("copyBackup")) {
+				return WM.copyBackup(args[0]);
+			} else if (cmd.getName().equalsIgnoreCase("tpallto")) {
+				switch (args.length) {
+				case 0:
 					if (s != null)
-						return C.tpallto(Integer.parseInt(args[0]), Integer.parseInt(args[1]),
-								Integer.parseInt(args[2]), s.getWorld().getName());
+						return C.tpAllTo(s);
 					else {
-						log.warning("Please specify a world to teleport to!");
+						log.warning("Not enough arguments");
 						return false;
 					}
-				} catch (NumberFormatException e) {
-					if (s != null)
-						s.sendMessage("Invalid arguments. Check usage!");
-					else
-						log.warning("Invalid arguments. Check usage!");
-					return false;
-				}
-			case 4:
-				try {
-					return C.tpallto(Integer.parseInt(args[0]), Integer.parseInt(args[1]),
+				case 3:
+					try {
+						if (s != null)
+							return C.tpAllTo(Integer.parseInt(args[0]), Integer.parseInt(args[1]),
+									Integer.parseInt(args[2]), s.getWorld().getName());
+						else {
+							log.warning("Please specify a world to teleport to!");
+							return false;
+						}
+					} catch (NumberFormatException e) {
+						if (s != null)
+							s.sendMessage("Invalid arguments. Check usage!");
+						else
+							log.warning("Invalid arguments. Check usage!");
+						return false;
+					}
+				case 4:
+					try {
+						return C.tpAllTo(Integer.parseInt(args[0]), Integer.parseInt(args[1]),
 								Integer.parseInt(args[2]), args[3]);
-				} catch (NumberFormatException e) {
-					if (s != null)
-						s.sendMessage("Invalid arguments. Check usage!");
-					else
-						log.warning("Invalid arguments. Check usage!");
-					return false;
+					} catch (NumberFormatException e) {
+						if (s != null)
+							s.sendMessage("Invalid arguments. Check usage!");
+						else
+							log.warning("Invalid arguments. Check usage!");
+						return false;
+					}
 				}
+			} else if (cmd.getName().equalsIgnoreCase("getWorlds")) {
+				for (World wo : getServer().getWorlds()) {
+					if (s != null)
+						s.sendMessage(wo.getName());
+					else
+						log.info(wo.getName());
+				}
+				return true;
 			}
-		} else if (cmd.getName().equalsIgnoreCase("getWorlds")) {
-			for (World wo : getServer().getWorlds()) {
-				if(s!=null)s.sendMessage(wo.getName());
-				else log.info(wo.getName());
-			}
-			return true;
+		} catch (IndexOutOfBoundsException e) {
+			if (s != null)
+				s.sendMessage("Not enough arguments!");
+			else
+				log.warning("Not enough arguments!");
 		}
 		return false;
 	}

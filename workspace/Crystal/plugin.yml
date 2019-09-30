@@ -35,6 +35,10 @@ commands:
     description: Starts a new game
     permission: Crystal.newGame
     usage: /NewGame <GameName>
+  unloadWorld:
+    description: Unloads a world without deleting the world directory
+    permission: Crystal.unloadWorld
+    usage: /UnloadWorld <WorldName>
 
 permissions:
   Crystal.*:
@@ -48,4 +52,6 @@ permissions:
   Crystal.copyBackup:
     default: op
   Crystal.getWorlds:
+    default: op
+  Crystal.unloadWorld:
     default: op

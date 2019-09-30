@@ -1,0 +1,44 @@
+package me.Arouraios.Crystal.utils;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+import org.bukkit.Server;
+import org.bukkit.craftbukkit.libs.jline.internal.Log;
+import org.bukkit.entity.Player;
+
+import me.Arouraios.Crystal.minigame.Game;
+
+public class CountDown {
+	private int count = 60;
+	private int maxCount;
+
+	public CountDown(Server serv, Game g, int pCount) {
+		maxCount = pCount;
+		count = pCount;
+		Timer timer = new Timer();
+		TimerTask task = new TimerTask() {
+			@Override
+			public void run() {
+				Log.info(count);
+				if (count > 0) {
+					count--;
+				}
+				if (count == 0) {
+					g.timerEnded();
+					System.exit(0);
+				}
+				if (maxCount == count || count / maxCount < 0.15) {
+					for (Player p : serv.getOnlinePlayers()) {
+						p.sendMessage("Timer at " + count + " seconds");
+					}
+				}
+			}
+		};
+		timer.schedule(task, 0, 1000);
+	}
+
+	public static void main(Server serv, Game g, int count) {
+		new CountDown(serv, g, count);
+	}
+}
