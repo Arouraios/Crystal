@@ -1,0 +1,34 @@
+name: Crystal
+version: 0.1
+description: A Minigame Plugin for Minecraft 1.8. Main Game is Crystal (similar to Cores on Gomme)
+load: startup
+author: Arouraios
+main: me.Arouraios.Crystal.Main.java
+
+commands:
+  reloadWorld:
+    description: Reload the selected world (unload, delete, copyBackup, load)
+    permission: Crystal.reloadWorld
+    usage: /ReloadWorld <WorldName>
+  deleteWorld:
+    description: Unloads the selected world and deletes the world folder from the servers worlds-directory
+    permission: Crystal.deleteWorld
+    usage: /DeleteWorld <WorldName>
+  loadWorld:
+    description: Loads the selected World
+    permission: Crystal.loadWorld
+    usage: /LoadWorld <WorldName>
+  copyBackup:
+    description: Copies the world folder from the server's world-backup folder. World must have been removed beforehand; see: /DeleteWorld
+    permission: Crystal.copyBackup
+    usage: /CopyBackup
+  tpAllToLoc:
+    description: Teleports all players to the given location
+    permission: Crystal.tpAllToLoc
+    usage: /TpAllToLoc <x> <y> <z> [<world>]
+    aliases: tpAllTo
+  getWorlds:
+    description: Prints all world names
+    permission: Crystal.getWorlds
+    usage: /GetWorlds
+  
