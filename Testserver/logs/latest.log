@@ -1,282 +1,287 @@
-[16:48:07] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[16:48:07] [Server thread/INFO]: Loading properties
-[16:48:07] [Server thread/INFO]: Default game type: CREATIVE
-[16:48:08] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[16:48:08] [Server thread/INFO]: Debug logging is disabled
-[16:48:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:48:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:48:08] [Server thread/INFO]: Generating keypair
-[16:48:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:48:09] [Server thread/INFO]: Using default channel type
-[16:48:10] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[16:48:10] [Server thread/INFO]: [Crystal] Loading Crystal v0.1
-[16:48:10] [Server thread/INFO]: [Crystal] Enabling Crystal v0.1
-[16:48:10] [Server thread/INFO]: [Crystal] worlds created
-[16:48:10] [Server thread/INFO]: [Crystal] Crystal enabled!
-[16:48:10] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[16:48:10] [Server thread/INFO]: Preparing level "world"
-[16:48:10] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:48:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:48:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:48:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:48:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:48:10] [Server thread/INFO]: View Distance: 10
-[16:48:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:48:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:48:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:48:10] [Server thread/INFO]: Clear tick list: false
-[16:48:10] [Server thread/INFO]: Max Entity Collisions: 8
-[16:48:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:48:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:48:10] [Server thread/INFO]: Mob Spawn Range: 4
-[16:48:10] [Server thread/INFO]: Random Lighting Updates: false
-[16:48:10] [Server thread/INFO]: Structure Info Saving: true
-[16:48:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:48:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:48:10] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:48:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:48:10] [Server thread/INFO]: Max TNT Explosions: 100
-[16:48:10] [Server thread/INFO]: Anti X-Ray: true
-[16:48:10] [Server thread/INFO]: 	Engine Mode: 1
-[16:48:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:48:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:48:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:48:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:48:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:48:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:48:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:48:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:48:10] [Server thread/INFO]: View Distance: 10
-[16:48:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:48:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:48:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:48:10] [Server thread/INFO]: Clear tick list: false
-[16:48:10] [Server thread/INFO]: Max Entity Collisions: 8
-[16:48:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:48:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:48:10] [Server thread/INFO]: Mob Spawn Range: 4
-[16:48:10] [Server thread/INFO]: Random Lighting Updates: false
-[16:48:10] [Server thread/INFO]: Structure Info Saving: true
-[16:48:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:48:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:48:10] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:48:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:48:10] [Server thread/INFO]: Max TNT Explosions: 100
-[16:48:10] [Server thread/INFO]: Anti X-Ray: true
-[16:48:10] [Server thread/INFO]: 	Engine Mode: 1
-[16:48:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:48:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:48:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:48:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:48:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:48:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:48:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:48:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:48:10] [Server thread/INFO]: View Distance: 10
-[16:48:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:48:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:48:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:48:10] [Server thread/INFO]: Clear tick list: false
-[16:48:10] [Server thread/INFO]: Max Entity Collisions: 8
-[16:48:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:48:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:48:10] [Server thread/INFO]: Mob Spawn Range: 4
-[16:48:10] [Server thread/INFO]: Random Lighting Updates: false
-[16:48:10] [Server thread/INFO]: Structure Info Saving: true
-[16:48:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:48:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:48:10] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:48:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:48:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:48:10] [Server thread/INFO]: Max TNT Explosions: 100
-[16:48:10] [Server thread/INFO]: Anti X-Ray: true
-[16:48:10] [Server thread/INFO]: 	Engine Mode: 1
-[16:48:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:48:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:48:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:48:10] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7058118577375794550)
-[16:48:11] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1392717299885204215)
-[16:48:12] [Server thread/INFO]: Preparing spawn area: 57%
-[16:48:13] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1392717299885204215)
-[16:48:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:48:13] [Server thread/INFO]: Done (3,688s)! For help, type "help" or "?"
-[16:48:21] [Server thread/WARN]: [Crystal] World miniworld0 doesn't exist. Looking for unloaded Directory
-[16:48:21] [Server thread/INFO]: [Crystal] File doesn't exist
-[16:48:21] [Server thread/INFO]: /DeleteWorld <WorldName>[m
-[16:48:28] [User Authenticator #1/INFO]: UUID of player Ar0uraios is 8a8c80a5-f2f6-4e8c-9269-80487ebed85d
-[16:48:28] [Server thread/INFO]: Ar0uraios[/127.0.0.1:56148] logged in with entity id 23 at ([world]0.0, 200.0, 0.0)
-[16:48:42] [Server thread/INFO]: Ar0uraios issued server command: /newgame 0
-[16:48:42] [Server thread/INFO]: [Crystal] game 0 started running
-[16:48:42] [Timer-0/INFO]: [Crystal] act
-[16:48:42] [Server thread/INFO]: [Crystal] game 0 successfully created
-[16:48:42] [Timer-0/INFO]: [Crystal] all players will be teleported to the new game-lobby in 5 seconds
-[16:48:43] [Server thread/WARN]: [Crystal] World miniWorldLobby0 doesn't exist. Looking for unloaded Directory
-[16:48:43] [Server thread/INFO]: [Crystal] File doesn't exist
-[16:48:43] [Server thread/INFO]: [Crystal] World miniWorldLobby0 is not loaded. Copying Backup
-[16:48:43] [Timer-0/INFO]: [Crystal] act
-[16:48:43] [Server thread/INFO]: -------- World Settings For [miniWorldLobby0] --------
-[16:48:43] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:48:43] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:48:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:48:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:48:43] [Server thread/INFO]: View Distance: 10
-[16:48:43] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:48:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:48:43] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:48:43] [Server thread/INFO]: Clear tick list: false
-[16:48:43] [Server thread/INFO]: Max Entity Collisions: 8
-[16:48:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:48:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:48:43] [Server thread/INFO]: Mob Spawn Range: 4
-[16:48:43] [Server thread/INFO]: Random Lighting Updates: false
-[16:48:43] [Server thread/INFO]: Structure Info Saving: true
-[16:48:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:48:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:48:43] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:48:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:48:43] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:48:43] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:48:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:48:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:48:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:48:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:48:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:48:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:48:43] [Server thread/INFO]: Max TNT Explosions: 100
-[16:48:43] [Server thread/INFO]: Anti X-Ray: true
-[16:48:43] [Server thread/INFO]: 	Engine Mode: 1
-[16:48:43] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:48:43] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:48:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:48:43] [Server thread/INFO]: Preparing start region for level 3 (Seed: -4653532436053741938)
-[16:48:44] [Timer-0/INFO]: [Crystal] act
-[16:48:44] [Server thread/INFO]: Preparing spawn area for miniWorldLobby0, 8%
-[16:48:45] [Timer-0/INFO]: [Crystal] act
-[16:48:45] [Server thread/INFO]: Preparing spawn area for miniWorldLobby0, 48%
-[16:48:46] [Timer-0/INFO]: [Crystal] act
-[16:48:46] [Server thread/INFO]: Preparing spawn area for miniWorldLobby0, 77%
-[16:48:47] [Timer-0/INFO]: [Crystal] act
-[16:48:47] [Server thread/INFO]: [Crystal] Player CraftPlayer{name=Ar0uraios}was teleported to the given location
-[16:48:48] [Timer-0/INFO]: [Crystal] act
-[16:48:49] [Timer-0/INFO]: [Crystal] act
-[16:48:50] [Timer-0/INFO]: [Crystal] act
-[16:48:51] [Timer-0/INFO]: [Crystal] act
-[16:48:52] [Timer-0/INFO]: [Crystal] act
-[16:48:53] [Timer-0/INFO]: [Crystal] act
-[16:48:54] [Timer-0/INFO]: [Crystal] act
-[16:48:55] [Timer-0/INFO]: [Crystal] act
-[16:48:56] [Timer-0/INFO]: [Crystal] act
-[16:48:57] [Timer-0/INFO]: [Crystal] act
-[16:48:58] [Timer-0/INFO]: [Crystal] act
-[16:48:59] [Timer-0/INFO]: [Crystal] act
-[16:49:00] [Timer-0/INFO]: [Crystal] act
-[16:49:01] [Timer-0/INFO]: [Crystal] act
-[16:49:02] [Timer-0/INFO]: [Crystal] act
-[16:49:03] [Timer-0/INFO]: [Crystal] act
-[16:49:04] [Timer-0/INFO]: [Crystal] act
-[16:49:05] [Timer-0/INFO]: [Crystal] act
-[16:49:06] [Timer-0/INFO]: [Crystal] act
-[16:49:07] [Timer-0/INFO]: [Crystal] act
-[16:49:08] [Timer-0/INFO]: [Crystal] act
-[16:49:08] [Timer-0/INFO]: [Crystal] all players will be teleported to the new game-world in 5 seconds
-[16:49:09] [Server thread/WARN]: [Crystal] World miniWorld0 doesn't exist. Looking for unloaded Directory
-[16:49:09] [Server thread/INFO]: [Crystal] File doesn't exist
-[16:49:09] [Server thread/INFO]: [Crystal] World miniWorld0 is not loaded. Copying Backup
-[16:49:09] [Timer-0/INFO]: [Crystal] act
-[16:49:09] [Server thread/INFO]: -------- World Settings For [miniWorld0] --------
-[16:49:09] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:49:09] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:49:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:49:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:49:09] [Server thread/INFO]: View Distance: 10
-[16:49:09] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:49:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:49:09] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:49:09] [Server thread/INFO]: Clear tick list: false
-[16:49:09] [Server thread/INFO]: Max Entity Collisions: 8
-[16:49:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:49:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:49:09] [Server thread/INFO]: Mob Spawn Range: 4
-[16:49:09] [Server thread/INFO]: Random Lighting Updates: false
-[16:49:09] [Server thread/INFO]: Structure Info Saving: true
-[16:49:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:49:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:49:09] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:49:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:49:09] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:49:09] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:49:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:49:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:49:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:49:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:49:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:49:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:49:09] [Server thread/INFO]: Max TNT Explosions: 100
-[16:49:09] [Server thread/INFO]: Anti X-Ray: true
-[16:49:09] [Server thread/INFO]: 	Engine Mode: 1
-[16:49:09] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:49:09] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:49:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:49:09] [Server thread/INFO]: Preparing start region for level 4 (Seed: -7790655546416212360)
-[16:49:10] [Timer-0/INFO]: [Crystal] act
-[16:49:10] [Server thread/INFO]: Preparing spawn area for miniWorld0, 40%
-[16:49:11] [Timer-0/INFO]: [Crystal] act
-[16:49:11] [Server thread/INFO]: Preparing spawn area for miniWorld0, 81%
-[16:49:12] [Timer-0/INFO]: [Crystal] act
-[16:49:13] [Timer-0/INFO]: [Crystal] act
-[16:49:14] [Timer-0/INFO]: [Crystal] act
-[16:49:14] [Server thread/INFO]: [Crystal] Player CraftPlayer{name=Ar0uraios}was teleported to the given location
-[16:49:15] [Timer-0/INFO]: [Crystal] act
-[16:49:16] [Timer-0/INFO]: [Crystal] act
-[16:49:17] [Timer-0/INFO]: [Crystal] act
-[16:49:18] [Timer-0/INFO]: [Crystal] act
-[16:49:19] [Timer-0/INFO]: [Crystal] act
-[16:49:20] [Timer-0/INFO]: [Crystal] act
-[16:49:21] [Timer-0/INFO]: [Crystal] act
-[16:49:21] [Server thread/INFO]: Ar0uraios lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
-[16:49:21] [Server thread/INFO]: Ar0uraios left the game.
-[16:49:22] [Timer-0/INFO]: [Crystal] act
-[16:49:23] [Timer-0/INFO]: [Crystal] act
-[16:49:24] [Timer-0/INFO]: [Crystal] act
-[16:49:25] [Timer-0/INFO]: [Crystal] act
-[16:49:26] [Timer-0/INFO]: [Crystal] act
-[16:49:27] [Timer-0/INFO]: [Crystal] act
-[16:49:28] [Timer-0/INFO]: [Crystal] act
-[16:49:29] [Timer-0/INFO]: [Crystal] act
-[16:49:30] [Timer-0/INFO]: [Crystal] act
-[16:49:31] [Timer-0/INFO]: [Crystal] act
-[16:49:31] [Server thread/INFO]: Stopping the server
-[16:49:31] [Server thread/INFO]: Stopping server
-[16:49:31] [Server thread/INFO]: [Crystal] Disabling Crystal v0.1
-[16:49:31] [Server thread/INFO]: [Crystal] Crystal stopped!
-[16:49:31] [Server thread/INFO]: Saving players
-[16:49:31] [Server thread/INFO]: Saving worlds
-[16:49:31] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[16:49:31] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[16:49:31] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
-[16:49:31] [Server thread/INFO]: Saving chunks for level 'miniWorldLobby0'/Overworld
-[16:49:32] [Server thread/INFO]: Saving chunks for level 'miniWorld0'/Overworld
-[16:49:32] [Timer-0/INFO]: [Crystal] act
+[11:17:54] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[11:17:54] [Server thread/INFO]: Loading properties
+[11:17:54] [Server thread/INFO]: Default game type: CREATIVE
+[11:17:54] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[11:17:55] [Server thread/INFO]: Debug logging is disabled
+[11:17:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:17:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:17:55] [Server thread/INFO]: Generating keypair
+[11:17:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:17:55] [Server thread/INFO]: Using default channel type
+[11:17:56] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[11:17:56] [Server thread/INFO]: [Crystal] Loading Crystal v0.1
+[11:17:56] [Server thread/INFO]: [Crystal] Enabling Crystal v0.1
+[11:17:56] [Server thread/INFO]: [Crystal] worlds created
+[11:17:56] [Server thread/INFO]: [Crystal] Crystal enabled!
+[11:17:56] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[11:17:56] [Server thread/INFO]: Preparing level "world"
+[11:17:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:17:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:17:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:17:57] [Server thread/INFO]: View Distance: 10
+[11:17:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:17:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:17:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:17:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:17:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:17:57] [Server thread/INFO]: Clear tick list: false
+[11:17:57] [Server thread/INFO]: Max Entity Collisions: 8
+[11:17:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:17:57] [Server thread/INFO]: Anti X-Ray: true
+[11:17:57] [Server thread/INFO]: 	Engine Mode: 1
+[11:17:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:17:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:17:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:17:57] [Server thread/INFO]: Mob Spawn Range: 4
+[11:17:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:17:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:17:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:17:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:17:57] [Server thread/INFO]: Structure Info Saving: true
+[11:17:57] [Server thread/INFO]: Random Lighting Updates: false
+[11:17:57] [Server thread/INFO]: Max TNT Explosions: 100
+[11:17:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:17:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:17:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:17:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:17:57] [Server thread/INFO]: View Distance: 10
+[11:17:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:17:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:17:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:17:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:17:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:17:57] [Server thread/INFO]: Clear tick list: false
+[11:17:57] [Server thread/INFO]: Max Entity Collisions: 8
+[11:17:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:17:57] [Server thread/INFO]: Anti X-Ray: true
+[11:17:57] [Server thread/INFO]: 	Engine Mode: 1
+[11:17:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:17:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:17:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:17:57] [Server thread/INFO]: Mob Spawn Range: 4
+[11:17:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:17:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:17:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:17:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:17:57] [Server thread/INFO]: Structure Info Saving: true
+[11:17:57] [Server thread/INFO]: Random Lighting Updates: false
+[11:17:57] [Server thread/INFO]: Max TNT Explosions: 100
+[11:17:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:17:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:17:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:17:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:17:57] [Server thread/INFO]: View Distance: 10
+[11:17:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:17:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:17:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:17:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:17:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:17:57] [Server thread/INFO]: Clear tick list: false
+[11:17:57] [Server thread/INFO]: Max Entity Collisions: 8
+[11:17:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:17:57] [Server thread/INFO]: Anti X-Ray: true
+[11:17:57] [Server thread/INFO]: 	Engine Mode: 1
+[11:17:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:17:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:17:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:17:57] [Server thread/INFO]: Mob Spawn Range: 4
+[11:17:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:17:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:17:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:17:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:17:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:17:57] [Server thread/INFO]: Structure Info Saving: true
+[11:17:57] [Server thread/INFO]: Random Lighting Updates: false
+[11:17:57] [Server thread/INFO]: Max TNT Explosions: 100
+[11:17:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:17:57] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7058118577375794550)
+[11:17:58] [Server thread/INFO]: Preparing spawn area: 78%
+[11:17:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1392717299885204215)
+[11:17:59] [Server thread/INFO]: Preparing spawn area: 37%
+[11:18:00] [Server thread/INFO]: Preparing spawn area: 68%
+[11:18:01] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1392717299885204215)
+[11:18:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:18:02] [Server thread/INFO]: Done (5,225s)! For help, type "help" or "?"
+[11:21:01] [User Authenticator #1/INFO]: UUID of player Ar0uraios is 8a8c80a5-f2f6-4e8c-9269-80487ebed85d
+[11:21:02] [Server thread/INFO]: Ar0uraios[/127.0.0.1:59767] logged in with entity id 23 at ([world]0.0, 183.51889404946127, 0.0)
+[11:21:08] [Server thread/INFO]: Ar0uraios issued server command: /newgame 0
+[11:21:09] [Server thread/INFO]: [Crystal] game 0 started running
+[11:21:09] [Server thread/INFO]: [Crystal] game 0 successfully created
+[11:21:09] [Timer-0/INFO]: [Crystal] act
+[11:21:09] [Timer-0/INFO]: [Crystal] all players will be teleported to the new game-lobby in 5 seconds
+[11:21:10] [Timer-0/INFO]: [Crystal] act
+[11:21:10] [Server thread/WARN]: [Crystal] World miniWorldLobby0 doesn't exist. Looking for unloaded Directory
+[11:21:10] [Server thread/INFO]: [Crystal] File doesn't exist
+[11:21:10] [Server thread/INFO]: [Crystal] World miniWorldLobby0 is not loaded. Copying Backup
+[11:21:11] [Timer-0/INFO]: [Crystal] act
+[11:21:11] [Server thread/INFO]: -------- World Settings For [miniWorldLobby0] --------
+[11:21:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:21:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:21:11] [Server thread/INFO]: View Distance: 10
+[11:21:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:21:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:21:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:21:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:21:11] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:21:11] [Server thread/INFO]: Clear tick list: false
+[11:21:11] [Server thread/INFO]: Max Entity Collisions: 8
+[11:21:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:21:11] [Server thread/INFO]: Anti X-Ray: true
+[11:21:11] [Server thread/INFO]: 	Engine Mode: 1
+[11:21:11] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:21:11] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:21:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:21:11] [Server thread/INFO]: Mob Spawn Range: 4
+[11:21:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:21:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:21:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:21:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:21:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:21:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:21:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:21:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:21:11] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:21:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:21:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:21:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:21:11] [Server thread/INFO]: Structure Info Saving: true
+[11:21:11] [Server thread/INFO]: Random Lighting Updates: false
+[11:21:11] [Server thread/INFO]: Max TNT Explosions: 100
+[11:21:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:21:12] [Server thread/INFO]: Preparing start region for level 3 (Seed: -4653532436053741938)
+[11:21:12] [Timer-0/INFO]: [Crystal] act
+[11:21:13] [Server thread/INFO]: Preparing spawn area for miniWorldLobby0, 16%
+[11:21:13] [Timer-0/INFO]: [Crystal] act
+[11:21:14] [Server thread/INFO]: Preparing spawn area for miniWorldLobby0, 52%
+[11:21:14] [Timer-0/INFO]: [Crystal] act
+[11:21:15] [Server thread/INFO]: Preparing spawn area for miniWorldLobby0, 85%
+[11:21:15] [Timer-0/INFO]: [Crystal] act
+[11:21:16] [Server thread/INFO]: [Crystal] Player CraftPlayer{name=Ar0uraios}was teleported to the given location
+[11:21:16] [Timer-0/INFO]: [Crystal] act
+[11:21:17] [Timer-0/INFO]: [Crystal] act
+[11:21:18] [Timer-0/INFO]: [Crystal] act
+[11:21:19] [Timer-0/INFO]: [Crystal] act
+[11:21:20] [Timer-0/INFO]: [Crystal] act
+[11:21:21] [Timer-0/INFO]: [Crystal] act
+[11:21:22] [Timer-0/INFO]: [Crystal] act
+[11:21:23] [Timer-0/INFO]: [Crystal] act
+[11:21:24] [Timer-0/INFO]: [Crystal] act
+[11:21:25] [Timer-0/INFO]: [Crystal] act
+[11:21:26] [Timer-0/INFO]: [Crystal] act
+[11:21:27] [Timer-0/INFO]: [Crystal] act
+[11:21:28] [Timer-0/INFO]: [Crystal] act
+[11:21:29] [Timer-0/INFO]: [Crystal] act
+[11:21:30] [Timer-0/INFO]: [Crystal] act
+[11:21:31] [Timer-0/INFO]: [Crystal] act
+[11:21:32] [Timer-0/INFO]: [Crystal] act
+[11:21:33] [Timer-0/INFO]: [Crystal] act
+[11:21:34] [Timer-0/INFO]: [Crystal] act
+[11:21:35] [Timer-0/INFO]: [Crystal] act
+[11:21:35] [Timer-0/INFO]: [Crystal] all players will be teleported to the new game-world in 5 seconds
+[11:21:36] [Server thread/WARN]: [Crystal] World miniWorld0 doesn't exist. Looking for unloaded Directory
+[11:21:36] [Server thread/INFO]: [Crystal] File doesn't exist
+[11:21:36] [Server thread/INFO]: [Crystal] World miniWorld0 is not loaded. Copying Backup
+[11:21:36] [Timer-0/INFO]: [Crystal] act
+[11:21:37] [Server thread/INFO]: -------- World Settings For [miniWorld0] --------
+[11:21:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:21:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:21:37] [Server thread/INFO]: View Distance: 10
+[11:21:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:21:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:21:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:21:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:21:37] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:21:37] [Server thread/INFO]: Clear tick list: false
+[11:21:37] [Server thread/INFO]: Max Entity Collisions: 8
+[11:21:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:21:37] [Server thread/INFO]: Anti X-Ray: true
+[11:21:37] [Server thread/INFO]: 	Engine Mode: 1
+[11:21:37] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:21:37] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:21:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:21:37] [Server thread/INFO]: Mob Spawn Range: 4
+[11:21:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:21:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:21:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:21:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:21:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:21:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:21:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:21:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:21:37] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:21:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:21:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:21:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:21:37] [Server thread/INFO]: Structure Info Saving: true
+[11:21:37] [Server thread/INFO]: Random Lighting Updates: false
+[11:21:37] [Server thread/INFO]: Max TNT Explosions: 100
+[11:21:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:21:37] [Server thread/INFO]: Preparing start region for level 4 (Seed: -7790655546416212360)
+[11:21:37] [Timer-0/INFO]: [Crystal] act
+[11:21:38] [Server thread/INFO]: Preparing spawn area for miniWorld0, 20%
+[11:21:38] [Timer-0/INFO]: [Crystal] act
+[11:21:39] [Server thread/INFO]: Preparing spawn area for miniWorld0, 48%
+[11:21:39] [Timer-0/INFO]: [Crystal] act
+[11:21:40] [Server thread/INFO]: Preparing spawn area for miniWorld0, 93%
+[11:21:40] [Timer-0/INFO]: [Crystal] act
+[11:21:40] [Server thread/INFO]: [Crystal] Player CraftPlayer{name=Ar0uraios}was teleported to the given location
+[11:21:41] [Timer-0/INFO]: [Crystal] act
+[11:21:42] [Timer-0/INFO]: [Crystal] act
+[11:21:43] [Timer-0/INFO]: [Crystal] act
+[11:21:44] [Timer-0/INFO]: [Crystal] act
+[11:21:45] [Timer-0/INFO]: [Crystal] act
+[11:21:46] [Timer-0/INFO]: [Crystal] act
+[11:21:47] [Timer-0/INFO]: [Crystal] act
+[11:21:48] [Timer-0/INFO]: [Crystal] act
+[11:21:49] [Timer-0/INFO]: [Crystal] act
+[11:21:50] [Timer-0/INFO]: [Crystal] act
+[11:21:51] [Timer-0/INFO]: [Crystal] act
+[11:21:52] [Timer-0/INFO]: [Crystal] act
+[11:21:53] [Timer-0/INFO]: [Crystal] act
+[11:21:54] [Timer-0/INFO]: [Crystal] act
+[11:21:55] [Timer-0/INFO]: [Crystal] act
+[11:21:56] [Timer-0/INFO]: [Crystal] act
+[11:21:57] [Timer-0/INFO]: [Crystal] act
+[11:21:58] [Timer-0/INFO]: [Crystal] act
+[11:21:59] [Timer-0/INFO]: [Crystal] act
+[11:22:00] [Timer-0/INFO]: [Crystal] act
+[11:22:01] [Timer-0/INFO]: [Crystal] act
+[11:22:02] [Timer-0/WARN]: Exception in thread "Timer-0" 
+[11:22:02] [Timer-0/WARN]: java.util.ConcurrentModificationException
+[11:22:02] [Timer-0/WARN]: 	at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+[11:22:02] [Timer-0/WARN]: 	at java.util.ArrayList$Itr.next(Unknown Source)
+[11:22:02] [Timer-0/WARN]: 	at me.Arouraios.Crystal.Main.discardGame(Main.java:167)
+[11:22:02] [Timer-0/WARN]: 	at me.Arouraios.Crystal.minigame.Game$1.run(Game.java:47)
+[11:22:02] [Timer-0/WARN]: 	at java.util.TimerThread.mainLoop(Unknown Source)
+[11:22:02] [Timer-0/WARN]: 	at java.util.TimerThread.run(Unknown Source)
+[11:22:02] [Server thread/INFO]: [Crystal] Player CraftPlayer{name=Ar0uraios}was teleported to the given location
+[11:22:02] [Server thread/INFO]: [Crystal] World miniWorldLobby0 exists. Unloading...
+[11:22:02] [Server thread/INFO]: [Crystal] World miniWorld0 exists. Unloading...
+[11:22:15] [Server thread/INFO]: Ar0uraios issued server command: /gamerule doDaylightCycle
+[11:22:18] [Server thread/INFO]: Ar0uraios issued server command: /gamerule doDaylightCycle false
+[11:22:18] [Server thread/INFO]: [Ar0uraios: Game rule has been updated]
+[11:22:21] [Server thread/INFO]: Ar0uraios issued server command: /time set 0
+[11:22:21] [Server thread/INFO]: [Ar0uraios: Set the time to 0]

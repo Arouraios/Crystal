@@ -44,7 +44,7 @@ public class Game implements Runnable {
 		TimerTask task = new TimerTask() {
 			@Override
 			public void run() {
-				play();
+				if(status!="ended")play();else { timer.cancel();main.discardGame(count);}
 			}
 		};
 		timer.schedule(task, 0, 1000);

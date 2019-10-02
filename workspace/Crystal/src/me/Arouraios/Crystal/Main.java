@@ -162,4 +162,11 @@ public class Main extends JavaPlugin implements Listener {
 		}
 		return false;
 	}
+
+	public void discardGame(String count) {
+		for(Game g : runningGames) {
+			if(g.getCount().equalsIgnoreCase(count))runningGames.remove(g);
+		}
+		
+	}
 }
