@@ -26,8 +26,6 @@ public class TeamManager {
 	}
 	
 	public void createTeam(Game g, int maxPlayerCount) {
-		Team t = new Team(log, g, maxPlayerCount) {
-			
-		}
+		team t = new Team()
 	}
 }

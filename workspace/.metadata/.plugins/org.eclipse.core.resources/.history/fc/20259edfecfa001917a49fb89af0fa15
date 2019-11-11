@@ -1,10 +1,12 @@
 package me.Arouraios.Crystal.teams;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
 import org.bukkit.entity.Player;
 
+import jdk.internal.org.jline.utils.Log;
 import me.Arouraios.Crystal.minigame.Game;
 
 public class Team {
@@ -16,7 +18,7 @@ public class Team {
 	boolean generated;
 	Logger log;
 
-	public Team(Logger pLog, Game pG, int maxPlayerCount) {
+	public Team(Logger pLog; Game pG, int maxPlayerCount) {
 		log=pLog;
 		g = pG;
 		pc = maxPlayerCount;
@@ -31,7 +33,7 @@ public class Team {
 			team[cpc]=p;
 			cpc++;
 		}
-		else log.warning("Too many Players!!");
+		else log.warn("Too many Players!!");
 	}
 	
 	public void addPlayer(Player[] p) {
@@ -41,7 +43,7 @@ public class Team {
 				cpc++;
 			}
 		}
-		else log.warning("Too many Players!!");
+		else log.warn("Too many Players!!");
 	}
 	
 	public void removePlayer(Player p) {

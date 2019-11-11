@@ -1,7 +1,7 @@
 package me.Arouraios.Crystal.teams;
 
+import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 
 import org.bukkit.entity.Player;
 
@@ -14,34 +14,30 @@ public class Team {
 	Player[] team;
 	List<Player> playerList;
 	boolean generated;
-	Logger log;
 
-	public Team(Logger pLog, Game pG, int maxPlayerCount) {
-		log=pLog;
+	public Team(Game pG, int maxPlayerCount) {
 		g = pG;
 		pc = maxPlayerCount;
 		cpc=0;
 		team = new Player[maxPlayerCount];
-		generated = true;
+		playerList=new ArrayList<Player>;
+		generated = false;
+		makeArray();
 	}
-	
+
+	public void makeArray() {
+		int i=0;
+		for(Player p : playerList) {
+			team[i]=p;
+			i++;
+		}
+	}
 	
 	public void addPlayer(Player p) {
 		if(cpc<pc) {
 			team[cpc]=p;
 			cpc++;
 		}
-		else log.warning("Too many Players!!");
-	}
-	
-	public void addPlayer(Player[] p) {
-		if(cpc + p.length <= pc) {
-			for(int i = 0; i<p.length; i++) {
-				team[cpc] = p[i];
-				cpc++;
-			}
-		}
-		else log.warning("Too many Players!!");
 	}
 	
 	public void removePlayer(Player p) {

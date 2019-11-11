@@ -1,10 +1,12 @@
 package me.Arouraios.Crystal.teams;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
 import org.bukkit.entity.Player;
 
+import jdk.internal.org.jline.utils.Log;
 import me.Arouraios.Crystal.minigame.Game;
 
 public class Team {
