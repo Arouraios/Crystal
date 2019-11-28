@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.bukkit.World"/>
+    <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+    <fullyQualifiedTypeName name="me.Arouraios.Crystal.commands.Commander"/>
+    <fullyQualifiedTypeName name="me.Arouraios.Crystal.utils.CountDown"/>
+    <fullyQualifiedTypeName name="java.text.ParseException"/>
+    <fullyQualifiedTypeName name="org.bukkit.craftbukkit.libs.jline.internal.Log"/>
+    <fullyQualifiedTypeName name="org.bukkit.command.CommandSender"/>
+    <fullyQualifiedTypeName name="org.bukkit.command.Command"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
+    <fullyQualifiedTypeName name="org.bukkit.Server"/>
+    <fullyQualifiedTypeName name="org.bukkit.configuration.file.FileConfiguration"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.Log"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+    <fullyQualifiedTypeName name="me.Arouraios.Crystal.Main"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="me.Arouraios.Crystal.teams.Team"/>
+    <fullyQualifiedTypeName name="me.Arouraios.Crystal.minigame.Game"/>
+    <fullyQualifiedTypeName name="me.Arouraios.Crystal.objects.Crystal"/>
+    <fullyQualifiedTypeName name="me.Arouraios.Crystal.teams.TeamManager"/>
+</qualifiedTypeNameHistroy>
