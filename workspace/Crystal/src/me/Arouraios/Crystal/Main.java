@@ -33,7 +33,6 @@ import com.comphenix.protocol.events.PacketContainer;
 import com.comphenix.protocol.wrappers.EnumWrappers;
 
 import me.Arouraios.Crystal.minigame.Game;
-import me.Arouraios.Crystal.objects.PacketEvent;
 import me.Arouraios.Crystal.utils.Commander;
 import me.Arouraios.Crystal.worlds.WorldManager;
 
