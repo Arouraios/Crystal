@@ -6,15 +6,19 @@
 <fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
 <fullyQualifiedTypeName name="org.bukkit.Location"/>
 <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
-<fullyQualifiedTypeName name="com.comphenix.protocol.ProtocolManager"/>
 <fullyQualifiedTypeName name="com.comphenix.protocol.ProtocolLibrary"/>
 <fullyQualifiedTypeName name="com.comphenix.protocol.events.ConnectionSide"/>
 <fullyQualifiedTypeName name="com.comphenix.protocol.events.ListenerPriority"/>
 <fullyQualifiedTypeName name="com.comphenix.protocol.wrappers.EnumWrappers"/>
 <fullyQualifiedTypeName name="com.comphenix.protocol.wrappers.EnumWrappers.PlayerDigType"/>
 <fullyQualifiedTypeName name="com.comphenix.protocol.events.PacketAdapter"/>
-<fullyQualifiedTypeName name="com.comphenix.protocol.PacketType.Play"/>
 <fullyQualifiedTypeName name="com.comphenix.protocol.PacketType"/>
 <fullyQualifiedTypeName name="com.comphenix.protocol.events.PacketContainer"/>
 <fullyQualifiedTypeName name="com.comphenix.protocol.Packets.Client"/>
+<fullyQualifiedTypeName name="com.comphenix.protocol.PacketType.Play"/>
+<fullyQualifiedTypeName name="com.comphenix.protocol.PacketType.Play.Client"/>
+<fullyQualifiedTypeName name="com.comphenix.protocol.ProtocolManager"/>
+<fullyQualifiedTypeName name="com.comphenix.protocol.events.PacketListener"/>
+<fullyQualifiedTypeName name="com.comphenix.protocol.events.PacketEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.server.v1_8_R3.Packet"/>
 </qualifiedTypeNameHistroy>

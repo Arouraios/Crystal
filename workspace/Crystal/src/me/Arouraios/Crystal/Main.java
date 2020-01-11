@@ -30,11 +30,14 @@ import com.comphenix.protocol.events.ConnectionSide;
 import com.comphenix.protocol.events.ListenerPriority;
 import com.comphenix.protocol.events.PacketAdapter;
 import com.comphenix.protocol.events.PacketContainer;
+import com.comphenix.protocol.events.PacketEvent;
+import com.comphenix.protocol.events.PacketListener;
 import com.comphenix.protocol.wrappers.EnumWrappers;
 
 import me.Arouraios.Crystal.minigame.Game;
 import me.Arouraios.Crystal.utils.Commander;
 import me.Arouraios.Crystal.worlds.WorldManager;
+import net.minecraft.server.v1_8_R3.Packet;
 
 @SuppressWarnings("unused")
 public class Main extends JavaPlugin implements Listener {
@@ -176,6 +179,18 @@ public class Main extends JavaPlugin implements Listener {
 	}
 	
 	public void test() {
+		ProtocolManager pm = ProtocolLibrary.getProtocolManager();
+		PacketContainer packet = pm.createPacket(PacketType.Play.Client.BLOCK_DIG);
+		packet.getModifier().writeDefaults();
+		pm.addPacketListener(new PacketAdapter(this, ListenerPriority.NORMAL, PacketType.Play.Client.BLOCK_DIG) {
+			@Override
+			public void onPacketReceiving(PacketEvent e) {
+				if (e.getPacketType() == PacketType.Play.Client.BLOCK_DIG) {
+					PacketContainer p = e.getPacket();
+					p.getIntegers().write(1,1);
+				}
+			}
+		});
 		
 	}
 
