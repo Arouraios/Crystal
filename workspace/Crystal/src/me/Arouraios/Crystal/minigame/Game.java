@@ -58,6 +58,10 @@ public class Game implements Runnable {
 		timer.schedule(task, 0, 1000);
 	}
 	
+	public void mainTimeline() {
+		serv.getScheduler().scheduleSyncDelayedTask(
+	}
+	
 	public void initTeams() {
 		//TODO: initialize teams
 	}

@@ -1,5 +1,3 @@
 INDEX VERSION 1.131+D:\Koni\git\Crystal\workspace\.metadata\.plugins\org.eclipse.jdt.core
+4013536591.index
 3002122267.index
-3582683293.index
-2280129797.index
-3959450743.index
