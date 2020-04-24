@@ -73,7 +73,7 @@ public class Game implements Runnable {
 	
 	public void initTeams() {
 		//TODO: initialize teams
-		serv.
+		serv.getScheduler().scheduleS
 	}
 
 	private void play() {

@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.bukkit.World"/>
-    <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
-    <fullyQualifiedTypeName name="me.Arouraios.Crystal.commands.Commander"/>
-    <fullyQualifiedTypeName name="me.Arouraios.Crystal.utils.CountDown"/>
-    <fullyQualifiedTypeName name="java.text.ParseException"/>
-    <fullyQualifiedTypeName name="org.bukkit.craftbukkit.libs.jline.internal.Log"/>
-    <fullyQualifiedTypeName name="org.bukkit.command.CommandSender"/>
-    <fullyQualifiedTypeName name="org.bukkit.command.Command"/>
     <fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
-    <fullyQualifiedTypeName name="org.bukkit.Server"/>
-    <fullyQualifiedTypeName name="org.bukkit.configuration.file.FileConfiguration"/>
-    <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.Log"/>
-    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="org.bukkit.block.Block"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.block.BlockDamageEvent"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
+    <fullyQualifiedTypeName name="org.bukkit.Location"/>
     <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
-    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
-    <fullyQualifiedTypeName name="me.Arouraios.Crystal.Main"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="me.Arouraios.Crystal.teams.Team"/>
-    <fullyQualifiedTypeName name="me.Arouraios.Crystal.minigame.Game"/>
-    <fullyQualifiedTypeName name="me.Arouraios.Crystal.objects.Crystal"/>
-    <fullyQualifiedTypeName name="me.Arouraios.Crystal.teams.TeamManager"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.ProtocolLibrary"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.events.ConnectionSide"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.events.ListenerPriority"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.wrappers.EnumWrappers"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.wrappers.EnumWrappers.PlayerDigType"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.events.PacketAdapter"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.PacketType"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.events.PacketContainer"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.Packets.Client"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.PacketType.Play"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.PacketType.Play.Client"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.ProtocolManager"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.events.PacketListener"/>
+    <fullyQualifiedTypeName name="com.comphenix.protocol.events.PacketEvent"/>
+    <fullyQualifiedTypeName name="net.minecraft.server.v1_8_R3.Packet"/>
 </qualifiedTypeNameHistroy>

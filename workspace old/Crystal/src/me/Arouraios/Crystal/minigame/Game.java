@@ -58,8 +58,22 @@ public class Game implements Runnable {
 		timer.schedule(task, 0, 1000);
 	}
 	
+	/* 
+	 * alternative für den zustandbasierten Spielablauf
+	 * Hauptmethode des Game
+	 */
+	public void mainTimeline() {
+		serv.getScheduler().scheduleSyncDelayedTask(main, new Runnable() {
+			@Override
+			public void run() {
+				c.tpAllTo(0,150, 0, "miniWorldLobby" + count);
+			}
+		}, 20);
+	}
+	
 	public void initTeams() {
-		
+		//TODO: initialize teams
+		serv.
 	}
 
 	private void play() {

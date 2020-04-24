@@ -7,5 +7,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/Koni/git/Crystal/Testserver/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/Koni/git/Crystal/ProtocolLib.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://ci.dmulloy2.net/job/ProtocolLib/javadoc/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
